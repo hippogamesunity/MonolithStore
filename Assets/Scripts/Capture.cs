@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,12 +21,15 @@ public class Capture : MonoBehaviour
     public Text[] Properties;
     public string ItemFilter;
     public Item[] Items;
+    public List<ItemMeta> ItemMetas;
     
     public IEnumerator Start()
     {
         foreach (var item in Items)
         {
             if (ItemFilter != "" && !item.Id.Contains(ItemFilter)) continue;
+
+            CreateMeta(item);
 
             foreach (var page in Pages)
             {
@@ -104,12 +109,26 @@ public class Capture : MonoBehaviour
         Screenshot.transform.localRotation = Quaternion.Euler(0, 0, item.Screenshots[index].Rotation);
     }
 
+    private void CreateMeta(Item item)
+    {
+        if (item.MetaTemplateId == "") return;
+
+        var path = $"Output/{item.Id}/Meta.txt";
+
+        Directory.CreateDirectory("Output");
+        Directory.CreateDirectory($"Output/{item.Id}");
+
+        var meta = ItemMetas.Single(i => i.Id == item.MetaTemplateId);
+
+        File.WriteAllText(path, meta.Title.Replace("%TITLE%", item.Title) + "\r\n\r\n" + meta.Description.Replace("%TITLE%", item.Title).Replace("%COLLECTION%", item.Collection.ToUpper()).Replace(" SERIES", ""));
+    }
+
     private void CreateScreenshot(string folder, int index)
     {
-        var path = $"Screenshots/{folder}/{index}.png";
+        var path = $"Output/{folder}/{index}.png";
 
-        Directory.CreateDirectory("Screenshots");
-        Directory.CreateDirectory($"Screenshots/{folder}");
+        Directory.CreateDirectory("Output");
+        Directory.CreateDirectory($"Output/{folder}");
 
         var screenTexture = ScreenCapture.CaptureScreenshotAsTexture();
         var jpegBytes = screenTexture.EncodeToJPG(80);
@@ -130,6 +149,7 @@ public class Item
     public string MaterialDescription = "Гипс, белый цемент, мраморная мука, минеральные наполнители, армирующая фибра";
     public string TrayTitle = "Технический горшок и поддон";
     public string TrayDescription = "В комплекте. Кашпо не намокнет, а растение не засохнет.";
+    public string MetaTemplateId;
     public ItemProperty[] Properties;
     public ItemScreenshot[] Screenshots;
 }
@@ -148,4 +168,13 @@ public class ItemProperty
 {
     public string Text;
     public Sprite Icon;
+}
+
+[Serializable]
+public class ItemMeta
+{
+    public string Id;
+    public string Title;
+    [TextArea(1, 20)]
+    public string Description;
 }
