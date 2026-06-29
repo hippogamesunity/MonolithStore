@@ -11,7 +11,10 @@ public class Capture : MonoBehaviour
     public Text Collection;
     public Text Title;
     public Text Description;
-    public Text TrayInfo;
+    public Text MaterialTitle;
+    public Text MaterialDescription;
+    public Text TrayTitle;
+    public Text TrayDescription;
     public Image[] PropertyIcons;
     public Text[] Properties;
     public string ItemFilter;
@@ -59,6 +62,8 @@ public class Capture : MonoBehaviour
             Pages[0].SetActive(false);
             Pages[1].SetActive(true);
             SetScreenshot(item, 1);
+            MaterialTitle.text = item.MaterialTitle;
+            MaterialDescription.text = item.MaterialDescription;
 
             yield return new WaitForEndOfFrame();
             CreateScreenshot(item.Id, 2);
@@ -70,7 +75,8 @@ public class Capture : MonoBehaviour
             Pages[1].SetActive(false);
             Pages[2].SetActive(true);
             SetScreenshot(item, 2);
-            TrayInfo.text = item.TrayInfo;
+            TrayTitle.text = item.TrayTitle;
+            TrayDescription.text = item.TrayDescription;
 
             yield return new WaitForEndOfFrame();
             CreateScreenshot(item.Id, 3);
@@ -120,7 +126,10 @@ public class Item
     public string Title;
     public string Description;
     public string Collection;
-    public string TrayInfo;
+    public string MaterialTitle = "Композитный камень";
+    public string MaterialDescription = "Гипс, белый цемент, мраморная мука, минеральные наполнители, армирующая фибра";
+    public string TrayTitle = "Технический горшок и поддон";
+    public string TrayDescription = "В комплекте. Кашпо не намокнет, а растение не засохнет.";
     public ItemProperty[] Properties;
     public ItemScreenshot[] Screenshots;
 }

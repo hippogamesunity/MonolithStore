@@ -684,6 +684,8 @@ GameObject:
   - component: {fileID: 529380533}
   - component: {fileID: 529380535}
   - component: {fileID: 529380534}
+  - component: {fileID: 529380537}
+  - component: {fileID: 529380536}
   m_Layer: 5
   m_Name: Collection
   m_TagString: Untagged
@@ -709,7 +711,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 1000}
-  m_SizeDelta: {x: 1100, y: 200}
+  m_SizeDelta: {x: 0, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529380534
 MonoBehaviour:
@@ -749,6 +751,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529380532}
   m_CullTransparentMesh: 1
+--- !u!114 &529380536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529380532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 100
+    m_Right: 100
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &529380537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529380532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 0
 --- !u!1 &624314840
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,7 +913,6 @@ RectTransform:
   m_Children:
   - {fileID: 49217169}
   - {fileID: 1633849068}
-  - {fileID: 1866829905}
   - {fileID: 1316332373}
   - {fileID: 1662414852}
   - {fileID: 2038246302}
@@ -913,7 +954,6 @@ RectTransform:
   - {fileID: 1290990161}
   - {fileID: 865228436}
   - {fileID: 529380533}
-  - {fileID: 1030709311}
   - {fileID: 1101352524}
   - {fileID: 1445255162}
   - {fileID: 2109395325}
@@ -1021,81 +1061,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865228435}
   m_CullTransparentMesh: 1
---- !u!1 &1021771744
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1021771745}
-  - component: {fileID: 1021771747}
-  - component: {fileID: 1021771746}
-  m_Layer: 5
-  m_Name: Logo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1021771745
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021771744}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1913312261}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -150, y: 150}
-  m_SizeDelta: {x: 778, y: 150}
-  m_Pivot: {x: 1, y: 0}
---- !u!114 &1021771746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021771744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fbeff7c3dd0301d44bfda9b3139dfd3d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1021771747
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021771744}
-  m_CullTransparentMesh: 1
 --- !u!1 &1030709310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,7 +1091,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 683704730}
+  m_Father: {fileID: 2133494953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -1170,81 +1135,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030709310}
-  m_CullTransparentMesh: 1
---- !u!1 &1094792322
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1094792323}
-  - component: {fileID: 1094792325}
-  - component: {fileID: 1094792324}
-  m_Layer: 5
-  m_Name: Logo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1094792323
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094792322}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1446309857}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -150, y: 150}
-  m_SizeDelta: {x: 778, y: 150}
-  m_Pivot: {x: 1, y: 0}
---- !u!114 &1094792324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094792322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fbeff7c3dd0301d44bfda9b3139dfd3d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1094792325
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094792322}
   m_CullTransparentMesh: 1
 --- !u!1 &1101352523
 GameObject:
@@ -2003,7 +1893,6 @@ RectTransform:
   m_Children:
   - {fileID: 1924841288}
   - {fileID: 1255393974}
-  - {fileID: 1094792323}
   m_Father: {fileID: 2133494953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2239,7 +2128,10 @@ MonoBehaviour:
   Collection: {fileID: 1900687085}
   Title: {fileID: 1290990163}
   Description: {fileID: 865228438}
-  TrayInfo: {fileID: 1255393977}
+  MaterialTitle: {fileID: 49217171}
+  MaterialDescription: {fileID: 1633849070}
+  TrayTitle: {fileID: 1924841290}
+  TrayDescription: {fileID: 1255393977}
   PropertyIcons:
   - {fileID: 1101352525}
   - {fileID: 1445255163}
@@ -2250,15 +2142,23 @@ MonoBehaviour:
   - {fileID: 195378419}
   - {fileID: 409225718}
   - {fileID: 1255757547}
+  ItemFilter: Prism
   Items:
   - Id: "Simple \u0441 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
     Title: Simple
     Description: "\u041A\u0430\u0448\u043F\u043E \u0441 \u0442\u0435\u0445. \u0433\u043E\u0440\u0448\u043A\u043E\u043C
       \u0438 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
     Collection: PREMIUM PLANTER
-    TrayInfo: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435. \u041A\u0430\u0448\u043F\u043E
-      \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
+    MaterialTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+    MaterialDescription: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
+      \u041A\u0430\u0448\u043F\u043E \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442,
+      \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
+    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+    TrayDescription: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
+      \u041A\u0430\u0448\u043F\u043E \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442,
+      \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
     Properties:
     - Text: "\u0413\u0438\u043F\u0441"
       Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
@@ -2270,22 +2170,18 @@ MonoBehaviour:
       Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
     Screenshots:
     - Sprite: {fileID: 21300000, guid: 8b46ebfedde964e408a492fa2295d16d, type: 3}
-      YellowSensitivity: 0.03
       Offset: {x: 0, y: -150}
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: 90f87f831fd55904aa060699d307dbb5, type: 3}
-      YellowSensitivity: 1
       Offset: {x: 0, y: 100}
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: 8b242dbaa59fde644adb5d1f5a7b5f1b, type: 3}
-      YellowSensitivity: 1
       Offset: {x: 0, y: 0}
       Scale: 1
       Rotation: -0.5
     - Sprite: {fileID: 21300000, guid: cf8a24cfa8684774f942433af8645376, type: 3}
-      YellowSensitivity: 1
       Offset: {x: -50, y: 0}
       Scale: 1
       Rotation: 0
@@ -2294,7 +2190,14 @@ MonoBehaviour:
     Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
       \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
     Collection: CONCEPT SERIES
-    TrayInfo: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
+    MaterialTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+    MaterialDescription: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
+      \u041A\u0430\u0448\u043F\u043E \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442,
+      \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
+    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
       (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
       \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
       \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
@@ -2309,23 +2212,60 @@ MonoBehaviour:
       Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
     Screenshots:
     - Sprite: {fileID: 21300000, guid: c1f4ce3c59d14b248bd43a493b05305a, type: 3}
-      YellowSensitivity: 0.03
       Offset: {x: 0, y: -250}
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: 7ed34a03ca9510b4785fa3d3454066e0, type: 3}
-      YellowSensitivity: 1
       Offset: {x: 0, y: -250}
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: d9fbd8389811620409150622b6c53b1b, type: 3}
-      YellowSensitivity: 1
       Offset: {x: 0, y: -250}
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: ee2c94f1998c878488fec594c887d68f, type: 3}
-      YellowSensitivity: 1
       Offset: {x: 0, y: -250}
+      Scale: 1
+      Rotation: 0
+  - Id: Concept Gear
+    Title: Gear
+    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
+      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
+    Collection: CONCEPT SERIES
+    MaterialTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+    MaterialDescription: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
+      \u041A\u0430\u0448\u043F\u043E \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442,
+      \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
+    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+    TrayDescription: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
+      \u041A\u0430\u0448\u043F\u043E \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442,
+      \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
+    Properties:
+    - Text: "\u0413\u0438\u043F\u0441"
+      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
+    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430"
+      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
+    - Text: "550 \u043C\u043B"
+      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
+    - Text: "120 x 70 \u043C\u043C"
+      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
+    Screenshots:
+    - Sprite: {fileID: 21300000, guid: fbdbee775cc136b46af0988e7ac821bd, type: 3}
+      Offset: {x: 0, y: -100}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 7df758deafe69be4690fd52419dc569d, type: 3}
+      Offset: {x: 0, y: 200}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: f7fabb2cd5a486940b82a6ddd980e49f, type: 3}
+      Offset: {x: 0, y: -250}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: b4894d26ee34108448ce22aaadfa1815, type: 3}
+      Offset: {x: -50, y: -250}
       Scale: 1
       Rotation: 0
   - Id: Concept Max Popit
@@ -2333,7 +2273,14 @@ MonoBehaviour:
     Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
       \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
     Collection: CONCEPT MAX SERIES
-    TrayInfo: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
+    MaterialTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+    MaterialDescription: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
+      \u041A\u0430\u0448\u043F\u043E \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442,
+      \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
+    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
       (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
       \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
       \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
@@ -2348,26 +2295,62 @@ MonoBehaviour:
       Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
     Screenshots:
     - Sprite: {fileID: 21300000, guid: fa7d116df3fec8e40a38f3cb2ad86ef8, type: 3}
-      YellowSensitivity: 0.03
       Offset: {x: 0, y: -250}
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: ec5e4c5fabb41a547a94fc118d4f51b0, type: 3}
-      YellowSensitivity: 1
       Offset: {x: 0, y: -250}
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: 9903cd5a914d6324eb992fe3445fd9b0, type: 3}
-      YellowSensitivity: 1
       Offset: {x: 0, y: -250}
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: 6a83e76a5ed7e5044a2c1b2c841419f3, type: 3}
-      YellowSensitivity: 1
-      Offset: {x: 0, y: -250}
+      Offset: {x: 0, y: -200}
       Scale: 1
       Rotation: 0
-  ItemFilter: Pop
+  - Id: Prism
+    Title: Prism
+    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
+      \u0441 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
+    Collection: PREMIUM PLANTER
+    MaterialTitle: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
+      \u043F\u043B\u0430\u0441\u0442\u0438\u043A"
+    MaterialDescription: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u044F\u0442
+      \u0438\u0437 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B \u0438\u043B\u0438
+      \u0441\u0430\u0445\u0430\u0440\u043D\u043E\u0433\u043E \u0442\u0440\u043E\u0441\u0442\u043D\u0438\u043A\u0430"
+    TrayTitle: "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0434\u043E\u043D"
+    TrayDescription: "\u0421\u043E\u0431\u0435\u0440\u0435\u0442 \u0438\u0437\u043B\u0438\u0448\u043A\u0438
+      \u0432\u043B\u0430\u0433\u0438. \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u0430
+      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0444\u0438\u0442\u0438\u043B\u044C\u043D\u043E\u0433\u043E
+      \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u0430."
+    Properties:
+    - Text: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A"
+      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
+    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
+      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
+    - Text: "250 \u043C\u043B"
+      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
+    - Text: "94 x 82 \u043C\u043C"
+      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
+    Screenshots:
+    - Sprite: {fileID: 21300000, guid: d6b0ba0671ef15648bab08679d62c000, type: 3}
+      Offset: {x: 0, y: -100}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 0d17041e1181a614bb3a2bcc798591ba, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: e8ca5a85388371145bc0724398bb6007, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 18393b782487770429110e1844932ddf, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 0.9
+      Rotation: 0
 --- !u!4 &1572527215
 Transform:
   m_ObjectHideFlags: 0
@@ -2668,81 +2651,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852042373}
   m_CullTransparentMesh: 1
---- !u!1 &1866829904
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1866829905}
-  - component: {fileID: 1866829907}
-  - component: {fileID: 1866829906}
-  m_Layer: 5
-  m_Name: Logo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1866829905
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866829904}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 646382248}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -150, y: 150}
-  m_SizeDelta: {x: 778, y: 150}
-  m_Pivot: {x: 1, y: 0}
---- !u!114 &1866829906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866829904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fbeff7c3dd0301d44bfda9b3139dfd3d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1866829907
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866829904}
-  m_CullTransparentMesh: 1
 --- !u!1 &1900687083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2776,7 +2684,7 @@ RectTransform:
   m_Father: {fileID: 529380533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2851,7 +2759,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1350370694}
-  - {fileID: 1021771745}
   m_Father: {fileID: 2133494953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3309,6 +3216,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2056368162}
+  - {fileID: 1030709311}
   - {fileID: 683704730}
   - {fileID: 646382248}
   - {fileID: 1446309857}
