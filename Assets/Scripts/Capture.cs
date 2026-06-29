@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.IO;
-using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,9 +14,9 @@ public class Capture : MonoBehaviour
     public Text TrayInfo;
     public Image[] PropertyIcons;
     public Text[] Properties;
-    public Item[] Items;
     public string ItemFilter;
-
+    public Item[] Items;
+    
     public IEnumerator Start()
     {
         foreach (var item in Items)
@@ -55,6 +54,8 @@ public class Capture : MonoBehaviour
 
             // 2
 
+            if (item.Screenshots.Length == 1) continue;
+
             Pages[0].SetActive(false);
             Pages[1].SetActive(true);
             SetScreenshot(item, 1);
@@ -63,6 +64,8 @@ public class Capture : MonoBehaviour
             CreateScreenshot(item.Id, 2);
 
             // 3
+
+            if (item.Screenshots.Length == 2) continue;
 
             Pages[1].SetActive(false);
             Pages[2].SetActive(true);
@@ -73,6 +76,8 @@ public class Capture : MonoBehaviour
             CreateScreenshot(item.Id, 3);
 
             // 4
+
+            if (item.Screenshots.Length == 3) continue;
 
             Pages[2].SetActive(false);
             Pages[3].SetActive(true);
@@ -88,7 +93,6 @@ public class Capture : MonoBehaviour
     private void SetScreenshot(Item item, int index)
     {
         Screenshot.sprite = item.Screenshots[index].Sprite;
-        Screenshot.material.SetFloat("_Sensitivity", item.Screenshots[index].YellowSensitivity);
         Screenshot.transform.localPosition = item.Screenshots[index].Offset;
         Screenshot.transform.localScale = item.Screenshots[index].Scale * Vector3.one;
         Screenshot.transform.localRotation = Quaternion.Euler(0, 0, item.Screenshots[index].Rotation);
@@ -125,7 +129,6 @@ public class Item
 public class ItemScreenshot
 {
     public Sprite Sprite;
-    public float YellowSensitivity = 0.3f;
     public Vector2 Offset = Vector2.zero;
     public float Scale = 1;
     public float Rotation;

@@ -1,4 +1,4 @@
-Shader "UI/YellowRemover"
+Shader "UI/YellowRemover_KeepVibrant"
 {
     Properties
     {
@@ -9,6 +9,10 @@ Shader "UI/YellowRemover"
         _Sensitivity ("Yellow Sensitivity", Range(0.0, 0.5)) = 0.08
         _Smoothness ("Smoothness", Range(0.0, 0.5)) = 0.04
         _DesatAmount ("Desaturation Amount", Range(0.0, 1.0)) = 1.0
+        
+        // НОВЫЙ ПАРАМЕТР: Максимальная насыщенность для удаления
+        _MaxSaturation ("Max Saturation to Remove", Range(0.0, 1.0)) = 0.5
+        _SatSmoothness ("Saturation Smoothness", Range(0.0, 0.3)) = 0.1
         
         // Обязательные параметры для поддержки UI Масок
         _StencilComp ("Stencil Comparison", Float) = 8
@@ -73,6 +77,8 @@ Shader "UI/YellowRemover"
             float _Sensitivity;
             float _Smoothness;
             float _DesatAmount;
+            float _MaxSaturation;
+            float _SatSmoothness;
 
             v2f vert(appdata_t v)
             {
@@ -88,15 +94,18 @@ Shader "UI/YellowRemover"
             {
                 half4 col = tex2D(_MainTex, i.texcoord) * i.color;
                 
-                // Переводим RGB в HSV для поиска желтого
                 float3 rgb = col.rgb;
                 float maxVal = max(rgb.r, max(rgb.g, rgb.b));
                 float minVal = min(rgb.r, min(rgb.g, rgb.b));
                 float delta = maxVal - minVal;
 
-                float hue = 0.0;
-                if (delta > 0.0)
+                float hue = -1.0;
+                float saturation = 0.0;
+
+                if (delta > 0.0001) 
                 {
+                    saturation = maxVal > 0.0 ? delta / maxVal : 0.0;
+
                     if (maxVal == rgb.r)
                         hue = (rgb.g - rgb.b) / delta + (rgb.g < rgb.b ? 6.0 : 0.0);
                     else if (maxVal == rgb.g)
@@ -107,26 +116,30 @@ Shader "UI/YellowRemover"
                     hue /= 6.0;
                 }
 
-                // Считаем кратчайшее расстояние до желтого цвета на круге
-                float hueDiff = abs(hue - _YellowCenter);
-                if (hueDiff > 0.5) 
-                    hueDiff = 1.0 - hueDiff;
+                float yellowMask = 0.0;
+                if (hue >= 0.0)
+                {
+                    // 1. Маска по цветовому тону (попадаем ли в желтый)
+                    float hueDiff = abs(hue - _YellowCenter);
+                    if (hueDiff > 0.5) 
+                        hueDiff = 1.0 - hueDiff;
 
-                // Создаем маску для желтого цвета (1.0 в самом центре желтого)
-                float yellowMask = smoothstep(_Sensitivity + _Smoothness, _Sensitivity, hueDiff);
-                
-                // Игнорируем нейтральные серые/белые тона, чтобы не портить баланс белого
-                float saturation = maxVal > 0.0 ? delta / maxVal : 0.0;
-                yellowMask *= smoothstep(0.05, 0.15, saturation);
+                    yellowMask = smoothstep(_Sensitivity + _Smoothness, _Sensitivity, hueDiff);
+                    
+                    // 2. Игнорируем чистый белый/серый шум (низкий порог)
+                    yellowMask *= smoothstep(0.03, 0.08, saturation);
 
-                // Вычисляем черно-белую яркость для желтых пикселей
+                    // 3. ИЗМЕНЕНИЕ: Игнорируем слишком сочные цвета (верхний порог)
+                    // Если saturation больше _MaxSaturation, этот шаг плавно сбросит маску в 0
+                    float satMask = smoothstep(_MaxSaturation + _SatSmoothness, _MaxSaturation, saturation);
+                    yellowMask *= satMask;
+                }
+
+                // Вычисляем черно-белую яркость
                 half luminance = dot(col.rgb, half3(0.2126, 0.7152, 0.0722));
-                
-                // Для желтизны на фото лучше не просто делать пиксель серым, 
-                // а слегка осветлять его в сторону белого, сохраняя общую яркость
                 half3 targetColor = half3(luminance, luminance, luminance);
                 
-                // Применяем маску: обесцвечиваем ТОЛЬКО желтую область
+                // Смешиваем исходный цвет и обесцвеченный
                 float finalBlend = yellowMask * _DesatAmount;
                 col.rgb = lerp(col.rgb, targetColor, finalBlend);
                 
