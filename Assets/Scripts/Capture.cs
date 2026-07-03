@@ -166,6 +166,7 @@ public class ItemScreenshot
 [Serializable]
 public class ItemProperty
 {
+    [TextArea(1, 2)]
     public string Text;
     public Sprite Icon;
 }
