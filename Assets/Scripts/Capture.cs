@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using UnityEditor.AssetImporters;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -46,10 +47,11 @@ public class Capture : MonoBehaviour
                 icon.gameObject.SetActive(false);
             }
 
+            Collection.text = item.Collection;
             Title.text = item.Title;
             Description.text = item.Description;
-            Collection.text = item.Collection;
-
+            Description.fontSize = item.DescriptionTextSize;
+            
             for (var j = 0; j < item.Properties.Length; j++)
             {
                 PropertyIcons[j].gameObject.SetActive(true);
@@ -69,6 +71,7 @@ public class Capture : MonoBehaviour
             SetScreenshot(item, 1);
             MaterialTitle.text = item.MaterialTitle;
             MaterialDescription.text = item.MaterialDescription;
+            MaterialDescription.fontSize = item.MaterialDescriptionTextSize;
 
             yield return new WaitForEndOfFrame();
             CreateScreenshot(item.Id, 2);
@@ -143,10 +146,12 @@ public class Item
 {
     public string Id;
     public string Title;
-    public string Description;
     public string Collection;
+    public string Description;
+    public int DescriptionTextSize = 120;
     public string MaterialTitle = "Композитный камень";
     public string MaterialDescription = "Гипс, белый цемент, мраморная мука, минеральные наполнители, армирующая фибра";
+    public int MaterialDescriptionTextSize = 80;
     public string TrayTitle = "Технический горшок и поддон";
     public string TrayDescription = "В комплекте. Кашпо не намокнет, а растение не засохнет.";
     public string MetaTemplateId;
