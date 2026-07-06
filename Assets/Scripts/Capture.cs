@@ -47,7 +47,7 @@ public class Capture : MonoBehaviour
                 icon.gameObject.SetActive(false);
             }
 
-            Collection.text = item.Collection;
+            Collection.text = item.Collection.ToUpper();
             Title.text = item.Title;
             Description.text = item.Description;
             Description.fontSize = item.DescriptionTextSize;
