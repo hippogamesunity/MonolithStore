@@ -957,7 +957,7 @@ MonoBehaviour:
   TrayDescription: {fileID: 0}
   PropertyIcons: []
   Properties: []
-  ItemFilter: 
+  ItemFilter: "\u0412\u043A\u043B\u0430\u0434\u044B\u0448 Concept Max Honeycomb"
   Items:
   - Id: "\u0412\u043A\u043B\u0430\u0434\u044B\u0448 Concept Fractal"
     Title: Fractal
@@ -980,6 +980,54 @@ MonoBehaviour:
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: ac39b5b287df45c4ebc1eb400c36b0b1, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+  - Id: "\u0412\u043A\u043B\u0430\u0434\u044B\u0448 Concept Honeycomb"
+    Title: Honeycomb
+    Collection: CONCEPT SERIES
+    Description: "\u0412\u043A\u043B\u0430\u0434\u044B\u0448 \u0434\u043B\u044F \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434\u0430
+      Concept"
+    DescriptionTextSize: 120
+    MaterialTitle: "\u041C\u044F\u0433\u043A\u0438\u0439 \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B"
+    MaterialDescription: "\u041B\u0435\u0433\u043A\u043E \u043E\u0442\u0434\u0435\u043B\u044F\u0435\u0442\u0441\u044F
+      \u043E\u0442 \u0433\u0438\u043F\u0441\u0430, \u043B\u0435\u0433\u043A\u043E
+      \u043C\u043E\u0435\u0442\u0441\u044F."
+    MaterialDescriptionTextSize: 120
+    TrayTitle: 
+    TrayDescription: 
+    MetaTemplateId: 
+    Properties: []
+    Screenshots:
+    - Sprite: {fileID: 21300000, guid: 8d2ca76fc561cd24cbb9d2d3889ea83d, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: eada2f9a1d4225a48b239d3cffe6847a, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+  - Id: "\u0412\u043A\u043B\u0430\u0434\u044B\u0448 Concept Max Honeycomb"
+    Title: Honeycomb Max
+    Collection: CONCEPT MAX SERIES
+    Description: "\u0412\u043A\u043B\u0430\u0434\u044B\u0448 \u0434\u043B\u044F \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434\u0430
+      Concept Max"
+    DescriptionTextSize: 120
+    MaterialTitle: "\u041C\u044F\u0433\u043A\u0438\u0439 \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B"
+    MaterialDescription: "\u041B\u0435\u0433\u043A\u043E \u043E\u0442\u0434\u0435\u043B\u044F\u0435\u0442\u0441\u044F
+      \u043E\u0442 \u0433\u0438\u043F\u0441\u0430, \u043B\u0435\u0433\u043A\u043E
+      \u043C\u043E\u0435\u0442\u0441\u044F."
+    MaterialDescriptionTextSize: 120
+    TrayTitle: 
+    TrayDescription: 
+    MetaTemplateId: 
+    Properties: []
+    Screenshots:
+    - Sprite: {fileID: 21300000, guid: 2dd17e5e6d0368d44b3b753601db62cc, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 6b833176afad8444da1b6e48bd77c372, type: 3}
       Offset: {x: 0, y: 0}
       Scale: 1
       Rotation: 0
