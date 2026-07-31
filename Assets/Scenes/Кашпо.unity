@@ -122,6 +122,101 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &23990887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 23990888}
+  - component: {fileID: 23990891}
+  - component: {fileID: 23990890}
+  - component: {fileID: 23990889}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &23990888
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23990887}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1971765065}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -200}
+  m_SizeDelta: {x: 800, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &23990889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23990887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &23990890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23990887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
+    m_FontSize: 70
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 200
+    m_Alignment: 1
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 0.8
+  m_Text: "\u041F\u0440\u043E\u0447\u043D\u044B\u0439"
+--- !u!222 &23990891
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23990887}
+  m_CullTransparentMesh: 1
 --- !u!1 &49217168
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1000}
+  m_AnchoredPosition: {x: 0, y: 1200}
   m_SizeDelta: {x: -200.00002, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &49217170
@@ -208,7 +303,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439 \u043A\u0430\u043C\u0435\u043D\u044C"
+  m_Text: "\u041A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0430\u0446\u0438\u044F"
 --- !u!222 &49217172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -407,6 +502,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195378416}
   m_CullTransparentMesh: 1
+--- !u!1 &199570715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 199570716}
+  m_Layer: 5
+  m_Name: Page2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &199570716
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199570715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2053766428}
+  - {fileID: 517933907}
+  - {fileID: 1971765065}
+  - {fileID: 1009454902}
+  - {fileID: 2102471092}
+  m_Father: {fileID: 2133494953}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &409225715
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +636,102 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409225715}
+  m_CullTransparentMesh: 1
+--- !u!1 &517933906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 517933907}
+  - component: {fileID: 517933910}
+  - component: {fileID: 517933909}
+  - component: {fileID: 517933908}
+  m_Layer: 5
+  m_Name: Fake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &517933907
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517933906}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199570716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 400}
+  m_SizeDelta: {x: -200.00002, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &517933908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517933906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &517933909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517933906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
+    m_FontSize: 70
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 7
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 0.8
+  m_Text: "[!] \u0426\u0432\u0435\u0442 \u043E\u043F\u0430\u043B\u0443\u0431\u043A\u0438
+    \u043C\u043E\u0436\u0435\u0442 \u043E\u0442\u043B\u0438\u0447\u0430\u0442\u044C\u0441\u044F"
+--- !u!222 &517933910
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517933906}
   m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
@@ -692,7 +923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &529380533
 RectTransform:
   m_ObjectHideFlags: 0
@@ -711,7 +942,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 1000}
-  m_SizeDelta: {x: 0, y: 200}
+  m_SizeDelta: {x: 1250.8333, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529380534
 MonoBehaviour:
@@ -809,7 +1040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &624314841
 RectTransform:
   m_ObjectHideFlags: 0
@@ -893,7 +1124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 646382248}
   m_Layer: 5
-  m_Name: Page2
+  m_Name: Page3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -912,6 +1143,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 49217169}
+  - {fileID: 1713480388}
   - {fileID: 1633849068}
   - {fileID: 1316332373}
   - {fileID: 1662414852}
@@ -1000,8 +1232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 300}
-  m_SizeDelta: {x: -400, y: 400}
+  m_AnchoredPosition: {x: 0, y: 700}
+  m_SizeDelta: {x: -200, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &865228437
 MonoBehaviour:
@@ -1040,7 +1272,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
-    m_FontSize: 120
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1051,8 +1283,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: "\u041A\u0430\u0448\u043F\u043E \u0441 \u0442\u0435\u0445. \u0433\u043E\u0440\u0448\u043A\u043E\u043C
-    \u0438 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
+  m_Text: "\u0420\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439 \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
+    \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E"
 --- !u!222 &865228439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1060,6 +1292,98 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865228435}
+  m_CullTransparentMesh: 1
+--- !u!1 &1009454901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1009454902}
+  - component: {fileID: 1009454905}
+  - component: {fileID: 1009454904}
+  - component: {fileID: 1009454903}
+  m_Layer: 5
+  m_Name: Porperty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1009454902
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009454901}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1475840179}
+  m_Father: {fileID: 199570716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 100}
+  m_SizeDelta: {x: 128, y: 128}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1009454903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009454901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1009454904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009454901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7f1ef08c809e1ac42b7087dca593bef7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1009454905
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009454901}
   m_CullTransparentMesh: 1
 --- !u!1 &1030709310
 GameObject:
@@ -1172,7 +1496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -650, y: 100}
+  m_AnchoredPosition: {x: 600, y: 500}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1101352525
@@ -1195,7 +1519,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1321,10 +1645,11 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.8
-  m_Text: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435. \u041A\u0430\u0448\u043F\u043E
-    \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-    \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
+    m_LineSpacing: 1
+  m_Text: "\u0417\u0430\u0433\u043B\u0443\u0448\u043A\u0430 \u0432\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+    \u0432 \u043F\u0430\u0437 \u0432 \u0441\u0442\u0430\u043A\u0430\u043D\u0435,
+    \u043F\u0440\u0438 \u0437\u0430\u043B\u0438\u0432\u043A\u0435 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0441\u044F
+    \u0434\u0440\u0435\u043D\u0430\u0436\u043D\u043E\u0435 \u043E\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u0435"
 --- !u!1 &1255757544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,7 +1780,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 800}
+  m_AnchoredPosition: {x: 0, y: 1200}
   m_SizeDelta: {x: -400, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1290990162
@@ -1506,7 +1831,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: Simple
+  m_Text: Concept Max
 --- !u!222 &1290990164
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1533,7 +1858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1316332373
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1750,19 +2075,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
-    m_FontSize: 150
-    m_FontStyle: 1
+    m_FontSize: 120
+    m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 0
     m_MaxSize: 200
     m_Alignment: 7
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.8
-  m_Text: "\u041E\u0446\u0435\u043D\u0438\u0442\u0435 \u0440\u0430\u0437\u043C\u0435\u0440
-    \u043F\u0435\u0440\u0435\u0434 \u0437\u0430\u043A\u0430\u0437\u043E\u043C"
+    m_LineSpacing: 1
+  m_Text: "\u041F\u0440\u0438\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n\u0438\u0437
+    \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u043D\u043E\u0433\u043E \u0432\u043A\u043B\u0430\u0434\u044B\u0448\u0430"
 --- !u!222 &1350370697
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1789,7 +2114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1445255162
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1873,7 +2198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446309857}
   m_Layer: 5
-  m_Name: Page3
+  m_Name: Page4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1985,8 +2310,9 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.8
-  m_Text: "\u0413\u0438\u043F\u0441"
+    m_LineSpacing: 1
+  m_Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n120
+    \u0445 87 \u043C\u043C\n"
 --- !u!222 &1456125383
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1994,6 +2320,101 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456125379}
+  m_CullTransparentMesh: 1
+--- !u!1 &1475840178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1475840179}
+  - component: {fileID: 1475840182}
+  - component: {fileID: 1475840181}
+  - component: {fileID: 1475840180}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1475840179
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475840178}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1009454902}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -200}
+  m_SizeDelta: {x: 800, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1475840180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475840178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1475840181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475840178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
+    m_FontSize: 70
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 200
+    m_Alignment: 1
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 0.8
+  m_Text: "\u042D\u043A\u043E\u043B\u043E\u0433\u0438\u0447\u043D\u044B\u0439"
+--- !u!222 &1475840182
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475840178}
   m_CullTransparentMesh: 1
 --- !u!1 &1497031289
 GameObject:
@@ -2121,6 +2542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Pages:
   - {fileID: 683704729}
+  - {fileID: 199570715}
   - {fileID: 646382247}
   - {fileID: 1446309856}
   - {fileID: 1913312260}
@@ -2128,10 +2550,10 @@ MonoBehaviour:
   Collection: {fileID: 1900687085}
   Title: {fileID: 1290990163}
   Description: {fileID: 865228438}
-  MaterialTitle: {fileID: 49217171}
-  MaterialDescription: {fileID: 1633849070}
-  TrayTitle: {fileID: 1924841290}
-  TrayDescription: {fileID: 1255393977}
+  MaterialTitle: {fileID: 517933909}
+  MaterialDescription: {fileID: 517933909}
+  TrayTitle: {fileID: 517933909}
+  TrayDescription: {fileID: 517933909}
   PropertyIcons:
   - {fileID: 1101352525}
   - {fileID: 1445255163}
@@ -2142,1801 +2564,46 @@ MonoBehaviour:
   - {fileID: 195378419}
   - {fileID: 409225718}
   - {fileID: 1255757547}
-  ItemFilter: Concept Max Roundy
+  ItemFilter: 
   Items:
-  - Id: "Simple \u0441 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
-    Title: Simple
-    Collection: PREMIUM PLANTER
-    Description: "\u041A\u0430\u0448\u043F\u043E \u0441 \u0442\u0435\u0445. \u0433\u043E\u0440\u0448\u043A\u043E\u043C
-      \u0438 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
+  - Id: Concept Max
+    Title: Concept Max
+    Collection: CONCEPT MAX SERIES
+    Description: "\u0420\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439 \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
+      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E"
+    DescriptionTextSize: 100
+    MaterialTitle: 
+    MaterialDescription: 
     MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u0412 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
-      \u041A\u0430\u0448\u043F\u043E \u043D\u0435 \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442,
-      \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Simple with Tray
+    TrayTitle: 
+    TrayDescription: 
+    MetaTemplateId: Concept Max
     Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "550 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
+    - Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n120
+        \u0445 87 \u043C\u043C"
       Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
     Screenshots:
-    - Sprite: {fileID: 21300000, guid: 8b46ebfedde964e408a492fa2295d16d, type: 3}
-      Offset: {x: 0, y: -150}
-      Scale: 1
+    - Sprite: {fileID: 21300000, guid: 8f4acd866fd8ff44080abefdaaa5eaec, type: 3}
+      Offset: {x: 0, y: -100}
+      Scale: 0.9
       Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 90f87f831fd55904aa060699d307dbb5, type: 3}
-      Offset: {x: 0, y: 100}
-      Scale: 1
+    - Sprite: {fileID: 21300000, guid: 244d58f3a65c21b478b55fcce5f6a5ef, type: 3}
+      Offset: {x: 0, y: -100}
+      Scale: 0.9
       Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 8b242dbaa59fde644adb5d1f5a7b5f1b, type: 3}
+    - Sprite: {fileID: 21300000, guid: 0853a14473183a54cb686fa1bc74f92e, type: 3}
       Offset: {x: 0, y: 0}
       Scale: 1
       Rotation: -0.5
-    - Sprite: {fileID: 21300000, guid: cf8a24cfa8684774f942433af8645376, type: 3}
+    - Sprite: {fileID: 21300000, guid: 35158b884ed612746872d2b3fa912721, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 17e8726dc996f6e4c9020df71b21d46f, type: 3}
       Offset: {x: -50, y: 0}
       Scale: 1
-      Rotation: 0
-  - Id: Simple
-    Title: Simple
-    Collection: PREMIUM PLANTER
-    Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u043E\u0435
-      \u043A\u0430\u0448\u043F\u043E \u0438\u0437 \u0433\u0438\u043F\u0441\u0430"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4291586934). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Simple
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "550 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 6dcc1a78c5df8a744818c2a101714b27, type: 3}
-      Offset: {x: 0, y: -150}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: dadd5629e95c14e4a8198fbb8cf61f4a, type: 3}
-      Offset: {x: 0, y: 100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 884903082e7d80d4eb2bd75c97f789c7, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: -0.5
-    - Sprite: {fileID: 21300000, guid: d4f438de11a75d842a1f4348dacaf6d3, type: 3}
-      Offset: {x: -50, y: 0}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Lunar
-    Title: Lunar
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: c1f4ce3c59d14b248bd43a493b05305a, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 7ed34a03ca9510b4785fa3d3454066e0, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: d9fbd8389811620409150622b6c53b1b, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ee2c94f1998c878488fec594c887d68f, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Gear
-    Title: Gear
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: fbdbee775cc136b46af0988e7ac821bd, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 7df758deafe69be4690fd52419dc569d, type: 3}
-      Offset: {x: 0, y: 200}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: f7fabb2cd5a486940b82a6ddd980e49f, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: b4894d26ee34108448ce22aaadfa1815, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Tyre
-    Title: Tyre
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F \n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 1e6eaee65e7337541bf6dd0b15af05a0, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: bd5d2e646e7dc924b9c4a9f8c33d153e, type: 3}
-      Offset: {x: 0, y: 250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 524cddeec06da1041b525614ed8ec09f, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 8428764f6625c464499155da333a11ee, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Onyx
-    Title: Onyx
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 8df4b55a5a651284ebaae3c281bbfd11, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 2158a22de50e0e64c8f7f0df575febea, type: 3}
-      Offset: {x: 0, y: 150}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ee0f29303a4a62d40a8b3bc095dcb527, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: e6050acd3880fc14786803ec50397671, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Fractal
-    Title: Fractal
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 085505d3dad514247a2f07dde2779634, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 5bed960312712f944af68503ca67d04b, type: 3}
-      Offset: {x: 0, y: 200}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 42d2882494fc839448e15cdb713b15f5, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: c43407d05fac7de47a4ffe1e10b2c9cc, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Panels
-    Title: Panels
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: ff30e7d404940084c9f83e20adafb568, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 4f03824c6f96b424c9347fad9c645df3, type: 3}
-      Offset: {x: 0, y: 200}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 729c93e2d8c694341807234d8b7c4bfb, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 86917b52fdb7e1446b2ddcf551a58d24, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Hexagon
-    Title: Hexagon
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 82e9740602c53ea4daed0f8e8e7de5eb, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 50df0b3daf313584793d6aa6683a2e05, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 03cac23bd7701714d9ffb3037c757c24, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: a6de581d3fc88694a8da41bdaeaf9c46, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 1
-  - Id: Concept Hexagon
-    Title: Hexagon
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 82e9740602c53ea4daed0f8e8e7de5eb, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 50df0b3daf313584793d6aa6683a2e05, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 03cac23bd7701714d9ffb3037c757c24, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: a6de581d3fc88694a8da41bdaeaf9c46, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 1
-  - Id: Concept Pine
-    Title: Pine
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 29e8a6177b6c7664fa8ec46a29699257, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ba221474c54b2b147942579db0c46fba, type: 3}
-      Offset: {x: 0, y: 200}
-      Scale: 1
-      Rotation: -1.2
-    - Sprite: {fileID: 21300000, guid: a65118941870e1746a87f250f955c74f, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: c14e41416d8fddc41a805589f9dcab0b, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Monstera
-    Title: Monstera
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 9f4cb25d5fdfcb748a38e1a8bd6bfd41, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 2a46110cbcefb3e48b955c31daed68d7, type: 3}
-      Offset: {x: 0, y: 200}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: a88dfcc3f1cfef34ca79f8c3a66ff84b, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: bb61f2eb873dbdd4da067637de16ef31, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Techno
-    Title: Techno
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: bc0e86f0cbd2f6841aa57ad46643f804, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 475ff42477966d547b20fe8b22d6b2f1, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 614e9ff786fc03c43bb50a9fb2362d09, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 7748027aae3271b4f93ae98102c0a06c, type: 3}
-      Offset: {x: -50, y: 0}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Urban
-    Title: Urban
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 04c1a6b643667a544bc6316b7118f654, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: b43d256fd9ff33042bc326b97d3eeb19, type: 3}
-      Offset: {x: 0, y: 250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 3352a62b3d467ba408fbc4ce89c56d6e, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 4624819a478d36048bff2ede55b8ca2c, type: 3}
-      Offset: {x: -50, y: 0}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Lava
-    Title: Lava
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: af3925383c18c614595b33a48ae3f73b, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ba84d429dbda5b340a4c50b035b03124, type: 3}
-      Offset: {x: 0, y: 250}
-      Scale: 1
-      Rotation: -1
-    - Sprite: {fileID: 21300000, guid: 1ecb75879cbf0f144b1070e27c6340a3, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 71d3db8965efd9141b5c3ccd7c5b4b18, type: 3}
-      Offset: {x: -50, y: 0}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Popit
-    Title: Popit
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: ad4a22697cf94964a8ab5fcb14864c82, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 68c23f641637f824781a93bf35e4a139, type: 3}
-      Offset: {x: 0, y: 250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ba9677b66f291504e9799e07c1146d74, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 3c9e619fee0e1e9489f8f51f60b04e9f, type: 3}
-      Offset: {x: -50, y: 0}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Honeycomb
-    Title: Honeycomb
-    Collection: CONCEPT SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "480 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 05c85d4a12282c1448e76d270c75ecf0, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 9d2f2257729ce0047bc38df29c29bb81, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ca0c5ee77c249f04aa131582eb520130, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 8aa3dbdcb5cc7224abde7529cf690829, type: 3}
-      Offset: {x: -50, y: 0}
-      Scale: 1
-      Rotation: 0
-  - Id: "Simple \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    Title: Simple
-    Collection: PREMIUM PLANTER
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4291586934). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Simple with Stand
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "550 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: d10c1da27b58e274680d81c255a612da, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 584dd70990459f74b84ece9f3a765ad8, type: 3}
-      Offset: {x: 0, y: 200}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 67e7af31ffc7f91448d37a954c897a62, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ac82f7de4810f544fb773ed0c8bc6da6, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: "XXL \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    Title: XXL
-    Collection: PREMIUM PLANTER
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4291586934). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Simple with Stand
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "550 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: d10c1da27b58e274680d81c255a612da, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 584dd70990459f74b84ece9f3a765ad8, type: 3}
-      Offset: {x: 0, y: 200}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 67e7af31ffc7f91448d37a954c897a62, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ac82f7de4810f544fb773ed0c8bc6da6, type: 3}
-      Offset: {x: -50, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Popit
-    Title: Popit Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: fa7d116df3fec8e40a38f3cb2ad86ef8, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ec5e4c5fabb41a547a94fc118d4f51b0, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 9903cd5a914d6324eb992fe3445fd9b0, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 6a83e76a5ed7e5044a2c1b2c841419f3, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Urban
-    Title: Urban Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 600be6cffcf00104d832fc9634355162, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 46474080691bf5f4a81874dc05140b0e, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 97fe35d9192b3904992d5806541b52ee, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 866b44c05cf43dc45b26d109488728b0, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Tyre
-    Title: Tyre Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: f8fdc71b4749fac498068ae8bab87a3c, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 84761dee611db1a4284d6aff6738ddb4, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 1eca30a2a9dfdd648a17289ddf6e9e87, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ab0f245ee41300247b483f8bba7c82f5, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Gear
-    Title: Gear Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: bcacfe0ecbb611a47bebba79b4112300, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: abb20681133db2c46872a908869e13aa, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: be91fda81e27581408bf351b93906305, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: c5f286eb0b7f8764c8b17bf96e237c3d, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Fractal
-    Title: Fractal Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: f65805e50217ee24d932cc88389a4062, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 8954b076cde9a294ab5cfc419baa6f70, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 92a63e8bf32682941a2ac9dcf379e246, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: d4071dda24880e642875565179933ed3, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Simple
-    Title: Simple Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 4f7e791b308f3944897609f057768bc6, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 46c373c0ff7481442b55cf8e806ab820, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ad33dd1fde157fb4e99d4ed42a681ee7, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 2f73ea3392e550c4c8fbd66ae051807c, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Pine
-    Title: Pine Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: b73d5d10a9450494c97b5619f2bcae41, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 90d9043065e2fae41a5c0e26c5ae6758, type: 3}
-      Offset: {x: 0, y: 250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 7aaac4d3d0d9a8a4388748121a99cd2c, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 06172972be6b08e4a95da26a56edfc97, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Roundy
-    Title: Roundy Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 87463c35da1bc80479725abc42ffb32f, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 92110a632b89cd940b6397071e5857fc, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 7f6aae775115f5143813e7affa7efc96, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 2e0caa8241ddbea439a0e3659ac15be0, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Concept Max Techno
-    Title: Techno Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043D\u044B\u0439
-      \u043A\u0430\u043C\u0435\u043D\u044C"
-    MaterialDescription: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439
-      \u0446\u0435\u043C\u0435\u043D\u0442, \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F
-      \u043C\u0443\u043A\u0430, \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F
-      \u0444\u0438\u0431\u0440\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u041F\u0440\u043E\u0434\u0430\u044E\u0442\u0441\u044F \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442."
-    MetaTemplateId: Concept Max
-    Properties:
-    - Text: "\u0413\u0438\u043F\u0441"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "\u0420\u0443\u0447\u043D\u0430\u044F\n\u0440\u0430\u0431\u043E\u0442\u0430"
-      Icon: {fileID: 21300000, guid: edba6b14405242a48a2bcf75edd0fc4a, type: 3}
-    - Text: "620 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: eecd20b3b5b7df445a7c0bd8b7fb8083, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: e9876588241d9884faf05898841686b5, type: 3}
-      Offset: {x: 0, y: 250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 2ef2ae1f8ffe10c479b02dab35d7ba50, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: b99c3b50a019b62429c947eda648f137, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Honeypot
-    Title: Honeypot
-    Collection: PREMIUM PLANTER
-    Description: "\u041A\u0430\u0448\u043F\u043E \u0441 \u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u043C
-      \u0442\u0435\u0445. \u0433\u043E\u0440\u0448\u043A\u043E\u043C"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-    MaterialDescription: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u044F\u0442
-      \u0438\u0437 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B \u0438\u043B\u0438
-      \u0441\u0430\u0445\u0430\u0440\u043D\u043E\u0433\u043E \u0442\u0440\u043E\u0441\u0442\u043D\u0438\u043A\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u041F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u0439 \u0442\u0435\u0445.
-      \u0433\u043E\u0440\u0448\u043E\u043A"
-    TrayDescription: "\u0418\u0434\u0435\u0442 \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
-      \u041F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0441\u043B\u0435\u0434\u0438\u0442\u044C
-      \u0437\u0430 \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435\u043C \u0433\u0440\u0443\u043D\u0442\u0430
-      \u0438 \u043A\u043E\u0440\u043D\u0435\u0439"
-    MetaTemplateId: Plastic2
-    Properties:
-    - Text: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "500 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "113 x 80 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 96b7ec84df7022c47bff23e4bd0c1ae7, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 38757de852e1f1c41aca0199aac5d49c, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: ab6c32e1116cb2f4288bde489066005b, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 760e51173d115b84f80d79278f5eec2d, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Palisade
-    Title: Palisade
-    Collection: CARBON PLANTER
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u043C \u0442\u0435\u0445.
-      \u0433\u043E\u0440\u0448\u043A\u043E\u043C"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u0430\u0440\u0431\u043E\u043D"
-    MaterialDescription: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u0443\u0433\u043B\u0435\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u0441 \u0433\u043B\u0443\u0431\u043E\u043A\u0438\u043C
-      \u043C\u0430\u0442\u043E\u0432\u044B\u043C \u043E\u0442\u0442\u0435\u043D\u043A\u043E\u043C"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u041F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u0439 \u0442\u0435\u0445.
-      \u0433\u043E\u0440\u0448\u043E\u043A"
-    TrayDescription: "\u0418\u0434\u0435\u0442 \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435.
-      \u041F\u043E\u0437\u0432\u0432\u043E\u043B\u044F\u0435\u0442 \u043D\u0430\u0431\u043E\u044E\u0434\u0430\u0442\u044C
-      \u0437\u0430 \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435\u043C \u0433\u0440\u0443\u043D\u0442\u0430
-      \u0438 \u043A\u043E\u0440\u043D\u0435\u0439"
-    MetaTemplateId: Plastic2
-    Properties:
-    - Text: "\u041A\u0430\u0440\u0431\u043E\u043D"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "500 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 85 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 3604f0704c036d7419e4694c00d41beb, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 60b2139b338ac6148acc0ebcde5e77e0, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: b45f32447a939f548ad784171a33c9ea, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 5a90ccdf7a0e9694b849806e277ff1e8, type: 3}
-      Offset: {x: 0, y: -200}
-      Scale: 1
-      Rotation: 0
-  - Id: Prism
-    Title: Prism
-    Collection: PREMIUM PLANTER
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-    MaterialDescription: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u044F\u0442
-      \u0438\u0437 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B \u0438\u043B\u0438
-      \u0441\u0430\u0445\u0430\u0440\u043D\u043E\u0433\u043E \u0442\u0440\u043E\u0441\u0442\u043D\u0438\u043A\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u0421\u043E\u0431\u0435\u0440\u0435\u0442 \u0438\u0437\u043B\u0438\u0448\u043A\u0438
-      \u0432\u043B\u0430\u0433\u0438. \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u0430
-      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0444\u0438\u0442\u0438\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u0430."
-    MetaTemplateId: Plastic Prism
-    Properties:
-    - Text: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "250 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "94 x 82 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: d6b0ba0671ef15648bab08679d62c000, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 0d17041e1181a614bb3a2bcc798591ba, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: e8ca5a85388371145bc0724398bb6007, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 0.9
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 18393b782487770429110e1844932ddf, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 0.9
-      Rotation: 0
-  - Id: Onyx Olive Green
-    Title: Onyx
-    Collection: CARBON PLANTER
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u0430\u0440\u0431\u043E\u043D"
-    MaterialDescription: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u0443\u0433\u043B\u0435\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u0441 \u0433\u043B\u0443\u0431\u043E\u043A\u0438\u043C
-      \u043C\u0430\u0442\u043E\u0432\u044B\u043C \u043E\u0442\u0442\u0435\u043D\u043A\u043E\u043C"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u0421\u043E\u0431\u0435\u0440\u0435\u0442 \u0438\u0437\u043B\u0438\u0448\u043A\u0438
-      \u0432\u043B\u0430\u0433\u0438. \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u0430
-      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0444\u0438\u0442\u0438\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u0430."
-    MetaTemplateId: Plastic Onyx
-    Properties:
-    - Text: "\u041A\u0430\u0440\u0431\u043E\u043D"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "550 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 6e1be542ff40f2c4e8bdb70af568f778, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 9e3fb952097778a459ce794461ad9fd6, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: e3f328f7619000a408246bb678b6c7e0, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 790801a155eaa9142a6916c9c737e4a7, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 0.9
-      Rotation: 0
-  - Id: Onyx Deep Purple
-    Title: Onyx
-    Collection: CARBON PLANTER
-    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435 \u043A\u0430\u0448\u043F\u043E
-      \u0441 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041A\u0430\u0440\u0431\u043E\u043D"
-    MaterialDescription: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u0443\u0433\u043B\u0435\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u0441 \u0433\u043B\u0443\u0431\u043E\u043A\u0438\u043C
-      \u043C\u0430\u0442\u043E\u0432\u044B\u043C \u043E\u0442\u0442\u0435\u043D\u043A\u043E\u043C"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u0421\u043E\u0431\u0435\u0440\u0435\u0442 \u0438\u0437\u043B\u0438\u0448\u043A\u0438
-      \u0432\u043B\u0430\u0433\u0438. \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u0430
-      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0444\u0438\u0442\u0438\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u0430."
-    MetaTemplateId: Plastic Onyx
-    Properties:
-    - Text: "\u041A\u0430\u0440\u0431\u043E\u043D"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "550 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "120 x 70 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 14f8496bc64ada440b9d5159eee6ad19, type: 3}
-      Offset: {x: 0, y: -300}
-      Scale: 1.2
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: a536985e0b3a3514a970938a2ab7d700, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: d069a61de0426f54ab4421d9cba1ec52, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 2b93ad0db267e36469074bc76d831677, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 0.9
-      Rotation: 0
-  - Id: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u0433\u043E\u0440\u0448\u043E\u043A
-      \u0434\u043B\u044F \u0441\u0435\u0440\u0438\u0438 Concept"
-    Title: Tray
-    Collection: CONCEPT SERIES
-    Description: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u0433\u043E\u0440\u0448\u043E\u043A
-      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E \u0441\u0435\u0440\u0438\u0438
-      Concept"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-    MaterialDescription: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u044F\u0442
-      \u0438\u0437 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B \u0438\u043B\u0438
-      \u0441\u0430\u0445\u0430\u0440\u043D\u043E\u0433\u043E \u0442\u0440\u043E\u0441\u0442\u043D\u0438\u043A\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u0421\u043E\u0431\u0435\u0440\u0435\u0442 \u0438\u0437\u043B\u0438\u0448\u043A\u0438
-      \u0432\u043B\u0430\u0433\u0438. \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u0430
-      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0444\u0438\u0442\u0438\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u0430."
-    MetaTemplateId: Tray Concept
-    Properties:
-    - Text: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "390 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "102 x 63 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 2f064b9937ffc8941954edb09f23bd0a, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-  - Id: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u0433\u043E\u0440\u0448\u043E\u043A
-      \u0434\u043B\u044F \u0441\u0435\u0440\u0438\u0438 Concept Max"
-    Title: Tray
-    Collection: CONCEPT MAX SERIES
-    Description: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u0433\u043E\u0440\u0448\u043E\u043A
-      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E \u0441\u0435\u0440\u0438\u0438
-      Concept Max"
-    DescriptionTextSize: 110
-    MaterialTitle: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-    MaterialDescription: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u044F\u0442
-      \u0438\u0437 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B \u0438\u043B\u0438
-      \u0441\u0430\u0445\u0430\u0440\u043D\u043E\u0433\u043E \u0442\u0440\u043E\u0441\u0442\u043D\u0438\u043A\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u0421\u043E\u0431\u0435\u0440\u0435\u0442 \u0438\u0437\u043B\u0438\u0448\u043A\u0438
-      \u0432\u043B\u0430\u0433\u0438. \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u0430
-      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0444\u0438\u0442\u0438\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u0430."
-    MetaTemplateId: Tray Concept Max
-    Properties:
-    - Text: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "550 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "102 x 78 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 34f634c39d6b39e4e9de1060f0233df0, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 1
-      Rotation: 0
-  - Id: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u0433\u043E\u0440\u0448\u043E\u043A
-      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E Simple \u0431\u0435\u043B\u044B\u0439"
-    Title: Tray
-    Collection: PREMIUM PLANTER
-    Description: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u0433\u043E\u0440\u0448\u043E\u043A
-      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E Simple"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-    MaterialDescription: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u044F\u0442
-      \u0438\u0437 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B \u0438\u043B\u0438
-      \u0441\u0430\u0445\u0430\u0440\u043D\u043E\u0433\u043E \u0442\u0440\u043E\u0441\u0442\u043D\u0438\u043A\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u0421\u043E\u0431\u0435\u0440\u0435\u0442 \u0438\u0437\u043B\u0438\u0448\u043A\u0438
-      \u0432\u043B\u0430\u0433\u0438. \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u0430
-      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0444\u0438\u0442\u0438\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u0430."
-    MetaTemplateId: Tray Simple White
-    Properties:
-    - Text: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "390 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "103 x 62 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 9238c500763cc2948b11551497a867d2, type: 3}
-      Offset: {x: 0, y: -250}
-      Scale: 1
-      Rotation: 0
-  - Id: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u0433\u043E\u0440\u0448\u043E\u043A
-      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E Simple \u0447\u0435\u0440\u043D\u044B\u0439"
-    Title: Tray
-    Collection: PREMIUM PLANTER
-    Description: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u0433\u043E\u0440\u0448\u043E\u043A
-      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E Simple"
-    DescriptionTextSize: 120
-    MaterialTitle: "\u041F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-    MaterialDescription: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u044F\u0442
-      \u0438\u0437 \u043A\u0443\u043A\u0443\u0440\u0443\u0437\u044B \u0438\u043B\u0438
-      \u0441\u0430\u0445\u0430\u0440\u043D\u043E\u0433\u043E \u0442\u0440\u043E\u0441\u0442\u043D\u0438\u043A\u0430"
-    MaterialDescriptionTextSize: 80
-    TrayTitle: "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0434\u043E\u043D"
-    TrayDescription: "\u0421\u043E\u0431\u0435\u0440\u0435\u0442 \u0438\u0437\u043B\u0438\u0448\u043A\u0438
-      \u0432\u043B\u0430\u0433\u0438. \u0412\u043E\u0437\u043C\u043E\u0436\u043D\u0430
-      \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0444\u0438\u0442\u0438\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u0430."
-    MetaTemplateId: Tray Simple Black
-    Properties:
-    - Text: "PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A"
-      Icon: {fileID: 21300000, guid: 85b1b518ba4a8e74f9b36e4427d611eb, type: 3}
-    - Text: "3D \u043F\u0435\u0447\u0430\u0442\u044C"
-      Icon: {fileID: 21300000, guid: eb835b2f1854c304795c428c581aea14, type: 3}
-    - Text: "390 \u043C\u043B"
-      Icon: {fileID: 21300000, guid: d1628972da76b244481c5463949c4609, type: 3}
-    - Text: "103 x 62 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 0274503ae940cf943ad7310e37475a16, type: 3}
-      Offset: {x: 0, y: -350}
-      Scale: 1.1
       Rotation: 0
   ItemMetas:
-  - Id: Concept
-    Title: "\u041A\u0430\u0448\u043F\u043E %TITLE% \u0438\u0437 \u0433\u0438\u043F\u0441\u0430,
-      \u0430\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435, \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C,
-      \u043B\u043E\u0444\u0442, monolith, \u0433\u043E\u0440\u0448\u043E\u043A \u0434\u043B\u044F
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439"
-    Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u043E\u0435
-      \u043A\u0430\u0448\u043F\u043E %TITLE% \u0441\u043E\u0437\u0434\u0430\u043D\u043E
-      \u0434\u043B\u044F \u0442\u0435\u0445, \u043A\u0442\u043E \u0446\u0435\u043D\u0438\u0442
-      \u0441\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u0435 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u0438
-      \u0438 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E
-      \u0434\u0438\u0437\u0430\u0439\u043D\u0430. \u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0430\u044F
-      \u0441\u0435\u0440\u0438\u044F %COLLECTION%. \u042F \u0441\u0430\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u044E
-      \u0434\u0438\u0437\u0430\u0439\u043D \u043A\u0430\u0448\u043F\u043E \u0438
-      \u0438\u0437\u0433\u043E\u0442\u0430\u0432\u043B\u0438\u0432\u0430\u044E \u043C\u043E\u043B\u0434\u044B.\n\n\u041A\u0430\u0448\u043F\u043E
-      \u0441\u0434\u0435\u043B\u0430\u043D\u043E \u0438\u0437 \u0433\u0438\u043F\u0441\u0430
-      \u0441 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u0435\u043C \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u043E\u0439
-      \u043C\u0443\u043A\u0438, \u0431\u0435\u043B\u043E\u0433\u043E \u0446\u0435\u043C\u0435\u043D\u0442\u0430,
-      \u0434\u0438\u043E\u043A\u0441\u0438\u0434\u0430 \u0442\u0438\u0442\u0430\u043D\u0430
-      \u0438 \u0444\u0438\u0431\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u043D\u0430,
-      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043E\u043D\u043E \u0441\u0432\u0435\u0442\u043B\u043E\u0435
-      \u0438 \u043F\u0440\u043E\u0447\u043D\u043E\u0435. \u0421\u0442\u0440\u043E\u0433\u0430\u044F
-      \u0446\u0438\u043B\u0438\u043D\u0434\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
-      \u0444\u043E\u0440\u043C\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E
-      \u0432\u043F\u0438\u0448\u0435\u0442\u0441\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u044B
-      \u0432 \u0441\u0442\u0438\u043B\u0435 \u043B\u043E\u0444\u0442 \u0438\u043B\u0438
-      \u0441\u043A\u0430\u043D\u0434\u0438\u043D\u0430\u0432\u0441\u043A\u0438\u0439
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0441\u044C
-      \u0430\u043A\u0446\u0435\u043D\u0442\u043D\u043E\u0439 \u0434\u0435\u0442\u0430\u043B\u044C\u044E
-      \u043B\u044E\u0431\u043E\u0433\u043E \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0430.
-      \u0420\u0430\u0437\u043C\u0435\u0440\u044B \u0438\u0437\u0434\u0435\u043B\u0438\u044F
-      \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0442 \u043A\u043E\u043C\u0444\u043E\u0440\u0442\u043D\u043E\u0435
-      \u0440\u0430\u0437\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043B\u044E\u0431\u044B\u0445
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439. \u041A\u0430\u0448\u043F\u043E
-      \u043F\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0432
-      \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435 \u0441\u043E \u0441\u0442\u0438\u043B\u044C\u043D\u043E\u0439
-      \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439, \u043A\u043E\u0442\u043E\u0440\u0443\u044E
-      \u044F \u0442\u043E\u0436\u0435 \u0441\u043E\u0437\u0434\u0430\u044E \u0441\u0430\u043C.\n\n\u0427\u0442\u043E
-      \u0435\u0449\u0435 \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C
-      \u043F\u0435\u0440\u0435\u0434 \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n\n-
-      \u042F \u0434\u0435\u043B\u0430\u044E \u043A\u0430\u0448\u043F\u043E \u0432\u0440\u0443\u0447\u043D\u0443\u044E,
-      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043D\u0430 \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u0438
-      \u0438\u0437\u0434\u0435\u043B\u0438\u044F \u043C\u043E\u0433\u0443\u0442 \u0431\u044B\u0442\u044C
-      \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0435 \u043F\u0443\u0437\u044B\u0440\u044C\u043A\u0438.\n\n-
-      \u042F \u043D\u0435 \u043D\u0430\u043D\u043E\u0448\u0443 \u043B\u0430\u043A
-      \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F,
-      \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u0446\u0435\u043D\u044E
-      \u043D\u0430\u0442\u0443\u0440\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C
-      \u0438 \u044D\u043A\u043E\u043B\u043E\u0433\u0438\u0447\u043D\u043E\u0441\u0442\u044C.
-      \u041F\u0440\u0438 \u0447\u0440\u0435\u0437\u043C\u0435\u0440\u043D\u043E\u043C
-      \u043F\u043E\u043B\u0438\u0432\u0435 \u043A\u0430\u0448\u043F\u043E \u043C\u043E\u0436\u0435\u0442
-      \u0432\u043F\u0438\u0442\u044B\u0432\u0430\u0442\u044C \u0432\u043B\u0430\u0433\u0443
-      \u0438 \u043D\u0430\u043C\u043E\u043A\u043D\u0443\u0442\u044C (\u043D\u043E
-      \u0432\u044B\u0441\u043E\u0445\u043D\u0435\u0442 \u0441\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C).\n\n-
-      \u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-      \u0438 \u043F\u043E\u0434\u0434\u043E\u043D \u043C\u043E\u0436\u043D\u043E
-      \u043A\u0443\u043F\u0438\u0442\u044C \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442.\n\n- \u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u041D\u0415 \u0412\u0425\u041E\u0414\u0418\u0422 \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442.\n\n-
-      \u041F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u0430 \u0412\u0425\u041E\u0414\u0418\u0422
-      \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442."
-  - Id: Simple with Stand
-    Title: "\u041A\u0430\u0448\u043F\u043E %TITLE% \u0438\u0437 \u0433\u0438\u043F\u0441\u0430,
-      \u0430\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435, \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C,
-      \u043B\u043E\u0444\u0442, monolith, \u0433\u043E\u0440\u0448\u043E\u043A \u0434\u043B\u044F
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439"
-    Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u043E\u0435
-      \u043A\u0430\u0448\u043F\u043E %TITLE% \u0441\u043E\u0437\u0434\u0430\u043D\u043E
-      \u0434\u043B\u044F \u0442\u0435\u0445, \u043A\u0442\u043E \u0446\u0435\u043D\u0438\u0442
-      \u0441\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u0435 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u0438
-      \u0438 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E
-      \u0434\u0438\u0437\u0430\u0439\u043D\u0430. \u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0430\u044F
-      \u0441\u0435\u0440\u0438\u044F %COLLECTION%. \u042F \u0441\u0430\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u044E
-      \u0434\u0438\u0437\u0430\u0439\u043D \u043A\u0430\u0448\u043F\u043E \u0438
-      \u0438\u0437\u0433\u043E\u0442\u0430\u0432\u043B\u0438\u0432\u0430\u044E \u043C\u043E\u043B\u0434\u044B.\n\n\u041A\u0430\u0448\u043F\u043E
-      \u0441\u0434\u0435\u043B\u0430\u043D\u043E \u0438\u0437 \u0433\u0438\u043F\u0441\u0430
-      \u0441 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u0435\u043C \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u043E\u0439
-      \u043C\u0443\u043A\u0438, \u0431\u0435\u043B\u043E\u0433\u043E \u0446\u0435\u043C\u0435\u043D\u0442\u0430,
-      \u0434\u0438\u043E\u043A\u0441\u0438\u0434\u0430 \u0442\u0438\u0442\u0430\u043D\u0430
-      \u0438 \u0444\u0438\u0431\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u043D\u0430,
-      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043E\u043D\u043E \u0441\u0432\u0435\u0442\u043B\u043E\u0435
-      \u0438 \u043F\u0440\u043E\u0447\u043D\u043E\u0435. \u0421\u0442\u0440\u043E\u0433\u0430\u044F
-      \u0446\u0438\u043B\u0438\u043D\u0434\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
-      \u0444\u043E\u0440\u043C\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E
-      \u0432\u043F\u0438\u0448\u0435\u0442\u0441\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u044B
-      \u0432 \u0441\u0442\u0438\u043B\u0435 \u043B\u043E\u0444\u0442 \u0438\u043B\u0438
-      \u0441\u043A\u0430\u043D\u0434\u0438\u043D\u0430\u0432\u0441\u043A\u0438\u0439
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0441\u044C
-      \u0430\u043A\u0446\u0435\u043D\u0442\u043D\u043E\u0439 \u0434\u0435\u0442\u0430\u043B\u044C\u044E
-      \u043B\u044E\u0431\u043E\u0433\u043E \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0430.
-      \u0420\u0430\u0437\u043C\u0435\u0440\u044B \u0438\u0437\u0434\u0435\u043B\u0438\u044F
-      \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0442 \u043A\u043E\u043C\u0444\u043E\u0440\u0442\u043D\u043E\u0435
-      \u0440\u0430\u0437\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043B\u044E\u0431\u044B\u0445
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439. \u041A\u0430\u0448\u043F\u043E
-      \u043F\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0432
-      \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435 \u0441\u043E \u0441\u0442\u0438\u043B\u044C\u043D\u043E\u0439
-      \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439, \u043A\u043E\u0442\u043E\u0440\u0443\u044E
-      \u044F \u0442\u043E\u0436\u0435 \u0441\u043E\u0437\u0434\u0430\u044E \u0441\u0430\u043C.\n\n\u0427\u0442\u043E
-      \u0435\u0449\u0435 \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C
-      \u043F\u0435\u0440\u0435\u0434 \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n\n-
-      \u042F \u0434\u0435\u043B\u0430\u044E \u043A\u0430\u0448\u043F\u043E \u0432\u0440\u0443\u0447\u043D\u0443\u044E,
-      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043D\u0430 \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u0438
-      \u0438\u0437\u0434\u0435\u043B\u0438\u044F \u043C\u043E\u0433\u0443\u0442 \u0431\u044B\u0442\u044C
-      \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0435 \u043F\u0443\u0437\u044B\u0440\u044C\u043A\u0438.\n\n-
-      \u042F \u043D\u0435 \u043D\u0430\u043D\u043E\u0448\u0443 \u043B\u0430\u043A
-      \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F,
-      \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u0446\u0435\u043D\u044E
-      \u043D\u0430\u0442\u0443\u0440\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C
-      \u0438 \u044D\u043A\u043E\u043B\u043E\u0433\u0438\u0447\u043D\u043E\u0441\u0442\u044C.
-      \u041F\u0440\u0438 \u0447\u0440\u0435\u0437\u043C\u0435\u0440\u043D\u043E\u043C
-      \u043F\u043E\u043B\u0438\u0432\u0435 \u043A\u0430\u0448\u043F\u043E \u043C\u043E\u0436\u0435\u0442
-      \u0432\u043F\u0438\u0442\u044B\u0432\u0430\u0442\u044C \u0432\u043B\u0430\u0433\u0443
-      \u0438 \u043D\u0430\u043C\u043E\u043A\u043D\u0443\u0442\u044C (\u043D\u043E
-      \u0432\u044B\u0441\u043E\u0445\u043D\u0435\u0442 \u0441\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C).\n\n-
-      \u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-      \u0438 \u043F\u043E\u0434\u0434\u043E\u043D \u043C\u043E\u0436\u043D\u043E
-      \u043A\u0443\u043F\u0438\u0442\u044C \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4291586934). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442.\n\n- \u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u041D\u0415 \u0412\u0425\u041E\u0414\u0418\u0422 \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442.\n\n-
-      \u041F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u0430 \u0412\u0425\u041E\u0414\u0418\u0422
-      \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442."
   - Id: Concept Max
     Title: "\u041A\u0430\u0448\u043F\u043E %TITLE% \u0438\u0437 \u0433\u0438\u043F\u0441\u0430,
       \u0430\u0432\u0442\u043E\u0440\u0441\u043A\u043E\u0435, \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C,
@@ -3993,315 +2660,12 @@ MonoBehaviour:
       \u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
       \u0438 \u043F\u043E\u0434\u0434\u043E\u043D \u043C\u043E\u0436\u043D\u043E
       \u043A\u0443\u043F\u0438\u0442\u044C \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4882977695). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
+      (\u0430\u0440\u0442. 4883010856). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
       \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
       \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442.\n\n- \u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435
       \u041D\u0415 \u0412\u0425\u041E\u0414\u0418\u0422 \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442.\n\n-
       \u041F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u0430 \u0412\u0425\u041E\u0414\u0418\u0422
       \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442."
-  - Id: Simple
-    Title: "\u041A\u0430\u0448\u043F\u043E %TITLE% \u0438\u0437 \u0433\u0438\u043F\u0441\u0430,
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u043B\u043E\u0444\u0442,
-      monolith, \u0433\u043E\u0440\u0448\u043E\u043A \u0434\u043B\u044F \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439"
-    Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u043E\u0435
-      \u043A\u0430\u0448\u043F\u043E %TITLE% \u0441\u043E\u0437\u0434\u0430\u043D\u043E
-      \u0434\u043B\u044F \u0442\u0435\u0445, \u043A\u0442\u043E \u0446\u0435\u043D\u0438\u0442
-      \u0441\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u0435 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u0438
-      \u0438 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E
-      \u0434\u0438\u0437\u0430\u0439\u043D\u0430. \u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0430\u044F
-      \u0441\u0435\u0440\u0438\u044F %COLLECTION%. \u042F \u0441\u0430\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u044E
-      \u0434\u0438\u0437\u0430\u0439\u043D \u043A\u0430\u0448\u043F\u043E \u0438
-      \u0438\u0437\u0433\u043E\u0442\u0430\u0432\u043B\u0438\u0432\u0430\u044E \u043C\u043E\u043B\u0434\u044B.\n\n\u041A\u0430\u0448\u043F\u043E
-      \u0441\u0434\u0435\u043B\u0430\u043D\u043E \u0438\u0437 \u0433\u0438\u043F\u0441\u0430
-      \u0441 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u0435\u043C \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u043E\u0439
-      \u043C\u0443\u043A\u0438, \u0431\u0435\u043B\u043E\u0433\u043E \u0446\u0435\u043C\u0435\u043D\u0442\u0430,
-      \u0434\u0438\u043E\u043A\u0441\u0438\u0434\u0430 \u0442\u0438\u0442\u0430\u043D\u0430
-      \u0438 \u0444\u0438\u0431\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u043D\u0430,
-      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043E\u043D\u043E \u0441\u0432\u0435\u0442\u043B\u043E\u0435
-      \u0438 \u043F\u0440\u043E\u0447\u043D\u043E\u0435. \u0421\u0442\u0440\u043E\u0433\u0430\u044F
-      \u0446\u0438\u043B\u0438\u043D\u0434\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
-      \u0444\u043E\u0440\u043C\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E
-      \u0432\u043F\u0438\u0448\u0435\u0442\u0441\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u044B
-      \u0432 \u0441\u0442\u0438\u043B\u0435 \u043B\u043E\u0444\u0442 \u0438\u043B\u0438
-      \u0441\u043A\u0430\u043D\u0434\u0438\u043D\u0430\u0432\u0441\u043A\u0438\u0439
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0441\u044C
-      \u0430\u043A\u0446\u0435\u043D\u0442\u043D\u043E\u0439 \u0434\u0435\u0442\u0430\u043B\u044C\u044E
-      \u043B\u044E\u0431\u043E\u0433\u043E \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0430.
-      \u0420\u0430\u0437\u043C\u0435\u0440\u044B \u0438\u0437\u0434\u0435\u043B\u0438\u044F
-      \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0442 \u043A\u043E\u043C\u0444\u043E\u0440\u0442\u043D\u043E\u0435
-      \u0440\u0430\u0437\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043B\u044E\u0431\u044B\u0445
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439. \u041A\u0430\u0448\u043F\u043E
-      \u043F\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0432
-      \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435 \u0441\u043E \u0441\u0442\u0438\u043B\u044C\u043D\u043E\u0439
-      \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u043E\u0439, \u043A\u043E\u0442\u043E\u0440\u0443\u044E
-      \u044F \u0442\u043E\u0436\u0435 \u0441\u043E\u0437\u0434\u0430\u044E \u0441\u0430\u043C.\n\n\u0427\u0442\u043E
-      \u0435\u0449\u0435 \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C
-      \u043F\u0435\u0440\u0435\u0434 \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n\n-
-      \u042F \u0434\u0435\u043B\u0430\u044E \u043A\u0430\u0448\u043F\u043E \u0432\u0440\u0443\u0447\u043D\u0443\u044E,
-      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043D\u0430 \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u0438
-      \u0438\u0437\u0434\u0435\u043B\u0438\u044F \u043C\u043E\u0433\u0443\u0442 \u0431\u044B\u0442\u044C
-      \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0435 \u043F\u0443\u0437\u044B\u0440\u044C\u043A\u0438.\n\n-
-      \u042F \u043D\u0435 \u043D\u0430\u043D\u043E\u0448\u0443 \u043B\u0430\u043A
-      \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F,
-      \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u0446\u0435\u043D\u044E
-      \u043D\u0430\u0442\u0443\u0440\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C
-      \u0438 \u044D\u043A\u043E\u043B\u043E\u0433\u0438\u0447\u043D\u043E\u0441\u0442\u044C.
-      \u041F\u0440\u0438 \u0447\u0440\u0435\u0437\u043C\u0435\u0440\u043D\u043E\u043C
-      \u043F\u043E\u043B\u0438\u0432\u0435 \u043A\u0430\u0448\u043F\u043E \u043C\u043E\u0436\u0435\u0442
-      \u0432\u043F\u0438\u0442\u044B\u0432\u0430\u0442\u044C \u0432\u043B\u0430\u0433\u0443
-      \u0438 \u043D\u0430\u043C\u043E\u043A\u043D\u0443\u0442\u044C (\u043D\u043E
-      \u0432\u044B\u0441\u043E\u0445\u043D\u0435\u0442 \u0441\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C).\n\n-
-      \u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-      \u0438 \u043F\u043E\u0434\u0434\u043E\u043D \u043C\u043E\u0436\u043D\u043E
-      \u043A\u0443\u043F\u0438\u0442\u044C \u043E\u0442\u0434\u0435\u043B\u044C\u043D\u043E
-      (\u0430\u0440\u0442. 4291586934). \u041A\u0430\u0448\u043F\u043E \u043D\u0435
-      \u043D\u0430\u043C\u043E\u043A\u043D\u0435\u0442, \u0430 \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u043D\u0435 \u0437\u0430\u0441\u043E\u0445\u043D\u0435\u0442.\n\n- \u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u041D\u0415 \u0412\u0425\u041E\u0414\u0418\u0422 \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442."
-  - Id: Plastic Prism
-    Title: "\u041A\u0430\u0448\u043F\u043E %TITLE%  \u0434\u0432\u0443\u0445\u0446\u0432\u0435\u0442\u043D\u043E\u0435,
-      \u0434\u043B\u044F \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0441
-      \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C \u0438 \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u043E\u043C,
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u043B\u043E\u0444\u0442,
-      monolith"
-    Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u043E\u0435
-      \u043A\u0430\u0448\u043F\u043E %TITLE% \u0441\u043E\u0437\u0434\u0430\u043D\u043E
-      \u0434\u043B\u044F \u0442\u0435\u0445, \u043A\u0442\u043E \u0446\u0435\u043D\u0438\u0442
-      \u0441\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u0435 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u0438
-      \u0438 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E
-      \u0434\u0438\u0437\u0430\u0439\u043D\u0430. \u041A\u0430\u0448\u043F\u043E
-      \u0441\u0434\u0435\u043B\u0430\u043D\u043E \u0438\u0437 \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u043E\u0433\u043E
-      PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A\u0430, \u043F\u043E\u044D\u0442\u043E\u043C\u0443
-      \u043E\u043D\u043E \u043B\u0435\u0433\u043A\u043E\u0435 \u0438 \u043F\u0440\u043E\u0447\u043D\u043E\u0435.
-      \u0421\u0442\u0440\u043E\u0433\u0430\u044F \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0430\u044F
-      \u0444\u043E\u0440\u043C\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E
-      \u0432\u043F\u0438\u0448\u0435\u0442\u0441\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u044B
-      \u0432 \u0441\u0442\u0438\u043B\u0435 \u043B\u043E\u0444\u0442 \u0438\u043B\u0438
-      \u0441\u043A\u0430\u043D\u0434\u0438\u043D\u0430\u0432\u0441\u043A\u0438\u0439
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0441\u044C
-      \u0430\u043A\u0446\u0435\u043D\u0442\u043D\u043E\u0439 \u0434\u0435\u0442\u0430\u043B\u044C\u044E
-      \u043B\u044E\u0431\u043E\u0433\u043E \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0430.
-      \u0420\u0430\u0437\u043C\u0435\u0440\u044B \u0438\u0437\u0434\u0435\u043B\u0438\u044F
-      \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0442 \u043A\u043E\u043C\u0444\u043E\u0440\u0442\u043D\u043E\u0435
-      \u0440\u0430\u0437\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0445
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0430 \u043F\u043E\u0434\u0434\u043E\u043D
-      \u0437\u0430\u0449\u0438\u0442\u0438\u0442 \u0438\u0445 \u043E\u0442 \u043F\u0435\u0440\u0435\u043B\u0438\u0432\u0430.\n\n\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0430\u044F
-      \u0441\u0435\u0440\u0438\u044F %COLLECTION%. \u042F \u0441\u0430\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u044E
-      \u0434\u0438\u0437\u0430\u0439\u043D \u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044E
-      \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      PLA-\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u0434\u043B\u044F \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0430.
-      \n\n\u0427\u0442\u043E \u0435\u0449\u0435 \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C
-      \u043F\u0435\u0440\u0435\u0434 \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n\n-
-      \u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u041D\u0415 \u0412\u0425\u041E\u0414\u0418\u0422
-      \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442.\n\n- \u041F\u043E\u0434\u0434\u043E\u043D
-      \u0438 \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432 \u0412\u0425\u041E\u0414\u042F\u0422
-      \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442."
-  - Id: Plastic Onyx
-    Title: "\u041A\u0430\u0448\u043F\u043E %TITLE%  \u0434\u0432\u0443\u0445\u0446\u0432\u0435\u0442\u043D\u043E\u0435,
-      \u0434\u043B\u044F \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0441
-      \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C \u0438 \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432\u043E\u043C,
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u043B\u043E\u0444\u0442,
-      monolith"
-    Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u043E\u0435
-      \u043A\u0430\u0448\u043F\u043E %TITLE% \u0441\u043E\u0437\u0434\u0430\u043D\u043E
-      \u0434\u043B\u044F \u0442\u0435\u0445, \u043A\u0442\u043E \u0446\u0435\u043D\u0438\u0442
-      \u0441\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u0435 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u0438
-      \u0438 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E
-      \u0434\u0438\u0437\u0430\u0439\u043D\u0430. \u041A\u0430\u0448\u043F\u043E
-      \u0441\u0434\u0435\u043B\u0430\u043D\u043E \u0438\u0437 \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0443\u0433\u043B\u0435\u043F\u043B\u0430\u0441\u0442\u0438\u043A\u0430, \u043F\u043E\u044D\u0442\u043E\u043C\u0443
-      \u043E\u043D\u043E \u043B\u0435\u0433\u043A\u043E\u0435 \u0438 \u043F\u0440\u043E\u0447\u043D\u043E\u0435.
-      \u0421\u0442\u0440\u043E\u0433\u0430\u044F \u0446\u0438\u043B\u0438\u043D\u0434\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
-      \u0444\u043E\u0440\u043C\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E
-      \u0432\u043F\u0438\u0448\u0435\u0442\u0441\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u044B
-      \u0432 \u0441\u0442\u0438\u043B\u0435 \u043B\u043E\u0444\u0442 \u0438\u043B\u0438
-      \u0441\u043A\u0430\u043D\u0434\u0438\u043D\u0430\u0432\u0441\u043A\u0438\u0439
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0441\u044C
-      \u0430\u043A\u0446\u0435\u043D\u0442\u043D\u043E\u0439 \u0434\u0435\u0442\u0430\u043B\u044C\u044E
-      \u043B\u044E\u0431\u043E\u0433\u043E \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0430.
-      \u0420\u0430\u0437\u043C\u0435\u0440\u044B \u0438\u0437\u0434\u0435\u043B\u0438\u044F
-      \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0442 \u043A\u043E\u043C\u0444\u043E\u0440\u0442\u043D\u043E\u0435
-      \u0440\u0430\u0437\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0445
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0430 \u043F\u043E\u0434\u0434\u043E\u043D
-      \u0437\u0430\u0449\u0438\u0442\u0438\u0442 \u0438\u0445 \u043E\u0442 \u043F\u0435\u0440\u0435\u043B\u0438\u0432\u0430.\n\n\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0430\u044F
-      \u0441\u0435\u0440\u0438\u044F %COLLECTION%. \u042F \u0441\u0430\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u044E
-      \u0434\u0438\u0437\u0430\u0439\u043D \u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044E
-      \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u0443\u0433\u043B\u0435\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u0434\u043B\u044F
-      \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0430. \n\n\u0427\u0442\u043E
-      \u0435\u0449\u0435 \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C
-      \u043F\u0435\u0440\u0435\u0434 \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n\n-
-      \u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u041D\u0415 \u0412\u0425\u041E\u0414\u0418\u0422
-      \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442.\n\n- \u041F\u043E\u0434\u0434\u043E\u043D
-      \u0438 \u0430\u0432\u0442\u043E\u043F\u043E\u043B\u0438\u0432 \u0412\u0425\u041E\u0414\u042F\u0422
-      \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442."
-  - Id: Plastic2
-    Title: "\u041A\u0430\u0448\u043F\u043E %TITLE%  \u0441 \u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u043C
-      \u0442\u0435\u0445. \u0433\u043E\u0440\u0448\u043A\u043E\u043C, \u0434\u043B\u044F
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C,
-      \u043B\u043E\u0444\u0442, monolith"
-    Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u043E\u0435
-      \u043A\u0430\u0448\u043F\u043E %TITLE% \u0441\u043E\u0437\u0434\u0430\u043D\u043E
-      \u0434\u043B\u044F \u0442\u0435\u0445, \u043A\u0442\u043E \u0446\u0435\u043D\u0438\u0442
-      \u0441\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u0435 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u0438
-      \u0438 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E
-      \u0434\u0438\u0437\u0430\u0439\u043D\u0430. \u041A\u0430\u0448\u043F\u043E
-      \u0441\u0434\u0435\u043B\u0430\u043D\u043E \u0438\u0437 \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u043E\u0433\u043E
-      \u0443\u0433\u043B\u0435\u043F\u043B\u0430\u0441\u0442\u0438\u043A\u0430, \u043F\u043E\u044D\u0442\u043E\u043C\u0443
-      \u043E\u043D\u043E \u043B\u0435\u0433\u043A\u043E\u0435 \u0438 \u043F\u0440\u043E\u0447\u043D\u043E\u0435.
-      \u0421\u0442\u0440\u043E\u0433\u0430\u044F \u0446\u0438\u043B\u0438\u043D\u0434\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
-      \u0444\u043E\u0440\u043C\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E
-      \u0432\u043F\u0438\u0448\u0435\u0442\u0441\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u044B
-      \u0432 \u0441\u0442\u0438\u043B\u0435 \u043B\u043E\u0444\u0442 \u0438\u043B\u0438
-      \u0441\u043A\u0430\u043D\u0434\u0438\u043D\u0430\u0432\u0441\u043A\u0438\u0439
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0441\u044C
-      \u0430\u043A\u0446\u0435\u043D\u0442\u043D\u043E\u0439 \u0434\u0435\u0442\u0430\u043B\u044C\u044E
-      \u043B\u044E\u0431\u043E\u0433\u043E \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0430.
-      \u0420\u0430\u0437\u043C\u0435\u0440\u044B \u0438\u0437\u0434\u0435\u043B\u0438\u044F
-      \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0442 \u043A\u043E\u043C\u0444\u043E\u0440\u0442\u043D\u043E\u0435
-      \u0440\u0430\u0437\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0445
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0430 \u043F\u043E\u0434\u0434\u043E\u043D
-      \u0437\u0430\u0449\u0438\u0442\u0438\u0442 \u0438\u0445 \u043E\u0442 \u043F\u0435\u0440\u0435\u043B\u0438\u0432\u0430.\n\n\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0430\u044F
-      \u0441\u0435\u0440\u0438\u044F %COLLECTION%. \u042F \u0441\u0430\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u044E
-      \u0434\u0438\u0437\u0430\u0439\u043D \u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044E
-      \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0439
-      \u0443\u0433\u043B\u0435\u043F\u043B\u0430\u0441\u0442\u0438\u043A \u0434\u043B\u044F
-      \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0430. \n\n\u0427\u0442\u043E
-      \u0435\u0449\u0435 \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C
-      \u043F\u0435\u0440\u0435\u0434 \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n\n-
-      \u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435 \u041D\u0415 \u0412\u0425\u041E\u0414\u0418\u0422
-      \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442.\n\n- \u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A \u0412\u0425\u041E\u0414\u0418\u0422 \u0432
-      \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442."
-  - Id: Simple with Tray
-    Title: "\u041A\u0430\u0448\u043F\u043E %TITLE% \u0438\u0437 \u0433\u0438\u043F\u0441\u0430,
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u043B\u043E\u0444\u0442,
-      monolith, \u0433\u043E\u0440\u0448\u043E\u043A \u0434\u043B\u044F \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439"
-    Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0441\u0442\u0438\u0447\u043D\u043E\u0435
-      \u043A\u0430\u0448\u043F\u043E %TITLE% \u0441\u043E\u0437\u0434\u0430\u043D\u043E
-      \u0434\u043B\u044F \u0442\u0435\u0445, \u043A\u0442\u043E \u0446\u0435\u043D\u0438\u0442
-      \u0441\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u0435 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u0438
-      \u0438 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E
-      \u0434\u0438\u0437\u0430\u0439\u043D\u0430. \u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0430\u044F
-      \u0441\u0435\u0440\u0438\u044F %COLLECTION%. \u042F \u0441\u0430\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u044E
-      \u0434\u0438\u0437\u0430\u0439\u043D \u043A\u0430\u0448\u043F\u043E \u0438
-      \u0438\u0437\u0433\u043E\u0442\u0430\u0432\u043B\u0438\u0432\u0430\u044E \u043C\u043E\u043B\u0434\u044B.\n\n\u041A\u0430\u0448\u043F\u043E
-      \u0441\u0434\u0435\u043B\u0430\u043D\u043E \u0438\u0437 \u0433\u0438\u043F\u0441\u0430
-      \u0441 \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u0435\u043C \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u043E\u0439
-      \u043C\u0443\u043A\u0438, \u0431\u0435\u043B\u043E\u0433\u043E \u0446\u0435\u043C\u0435\u043D\u0442\u0430,
-      \u0434\u0438\u043E\u043A\u0441\u0438\u0434\u0430 \u0442\u0438\u0442\u0430\u043D\u0430
-      \u0438 \u0444\u0438\u0431\u0440\u043E\u0432\u043E\u043B\u043E\u043A\u043D\u0430,
-      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043E\u043D\u043E \u0441\u0432\u0435\u0442\u043B\u043E\u0435
-      \u0438 \u043F\u0440\u043E\u0447\u043D\u043E\u0435. \u0421\u0442\u0440\u043E\u0433\u0430\u044F
-      \u0446\u0438\u043B\u0438\u043D\u0434\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
-      \u0444\u043E\u0440\u043C\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E
-      \u0432\u043F\u0438\u0448\u0435\u0442\u0441\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u044B
-      \u0432 \u0441\u0442\u0438\u043B\u0435 \u043B\u043E\u0444\u0442 \u0438\u043B\u0438
-      \u0441\u043A\u0430\u043D\u0434\u0438\u043D\u0430\u0432\u0441\u043A\u0438\u0439
-      \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0441\u044C
-      \u0430\u043A\u0446\u0435\u043D\u0442\u043D\u043E\u0439 \u0434\u0435\u0442\u0430\u043B\u044C\u044E
-      \u043B\u044E\u0431\u043E\u0433\u043E \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0430.
-      \u0420\u0430\u0437\u043C\u0435\u0440\u044B \u0438\u0437\u0434\u0435\u043B\u0438\u044F
-      \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0442 \u043A\u043E\u043C\u0444\u043E\u0440\u0442\u043D\u043E\u0435
-      \u0440\u0430\u0437\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043B\u044E\u0431\u044B\u0445
-      \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439. \u041A\u0430\u0448\u043F\u043E
-      \u043F\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0432
-      \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442\u0435 \u0441 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C
-      \u0433\u043E\u0440\u0448\u043A\u043E\u043C \u0438 \u043F\u043E\u0434\u0434\u043E\u043D\u043E\u043C,
-      \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u044F \u0442\u043E\u0436\u0435
-      \u0441\u043E\u0437\u0434\u0430\u044E \u0441\u0430\u043C.\n\n\u0427\u0442\u043E
-      \u0435\u0449\u0435 \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C
-      \u043F\u0435\u0440\u0435\u0434 \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n\n-
-      \u042F \u0434\u0435\u043B\u0430\u044E \u043A\u0430\u0448\u043F\u043E \u0432\u0440\u0443\u0447\u043D\u0443\u044E,
-      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043D\u0430 \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u0438
-      \u0438\u0437\u0434\u0435\u043B\u0438\u044F \u043C\u043E\u0433\u0443\u0442 \u0431\u044B\u0442\u044C
-      \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0435 \u043F\u0443\u0437\u044B\u0440\u044C\u043A\u0438.\n\n-
-      \u042F \u043D\u0435 \u043D\u0430\u043D\u043E\u0448\u0443 \u043B\u0430\u043A
-      \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F,
-      \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u0446\u0435\u043D\u044E
-      \u043D\u0430\u0442\u0443\u0440\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C
-      \u0438 \u044D\u043A\u043E\u043B\u043E\u0433\u0438\u0447\u043D\u043E\u0441\u0442\u044C.
-      \u041F\u0440\u0438 \u0447\u0440\u0435\u0437\u043C\u0435\u0440\u043D\u043E\u043C
-      \u043F\u043E\u043B\u0438\u0432\u0435 \u043A\u0430\u0448\u043F\u043E \u043C\u043E\u0436\u0435\u0442
-      \u0432\u043F\u0438\u0442\u044B\u0432\u0430\u0442\u044C \u0432\u043B\u0430\u0433\u0443
-      \u0438 \u043D\u0430\u043C\u043E\u043A\u043D\u0443\u0442\u044C (\u043D\u043E
-      \u0432\u044B\u0441\u043E\u0445\u043D\u0435\u0442 \u0441\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C).\n\n-
-      \u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-      \u0438 \u043F\u043E\u0434\u0434\u043E\u043D \u0412\u0425\u041E\u0414\u042F\u0422
-      \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442.\n\n- \u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435
-      \u041D\u0415 \u0412\u0425\u041E\u0414\u0418\u0422 \u0432 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0442."
-  - Id: Tray Concept
-    Title: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A %TITLE% \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Concept"
-    Description: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A %TITLE% \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Concept \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u044B
-      \u0434\u043B\u044F \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0442\u0440\u0435\u0431\u0443\u044E\u0449\u0438\u0445
-      \u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0439 \u043F\u043E\u043B\u0438\u0432.
-      \u041F\u043E\u0434\u0434\u043E\u043D \u0441\u043E\u0431\u0435\u0440\u0435\u0442
-      \u0438\u0437\u043B\u0438\u0448\u043A\u0438 \u0432\u043B\u0430\u0433\u0438,
-      \u0430 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-      \u0437\u0430\u0449\u0438\u0442\u0438\u0442 \u043A\u0430\u0448\u043F\u043E \u043E\u0442
-      \u043D\u0430\u043C\u043E\u043A\u0430\u043D\u0438\u044F \u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442
-      \u0432\u043D\u0435\u0448\u043D\u0438\u0439 \u0432\u0438\u0434.\r\n\r\n\u042D\u0442\u043E\u0442
-      \u043D\u0430\u0431\u043E\u0440 \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
-      \u0422\u041E\u041B\u042C\u041A\u041E \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Concept."
-  - Id: Tray Concept Max
-    Title: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A %TITLE% \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Concept Max"
-    Description: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A %TITLE% \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Concept Max \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u044B
-      \u0434\u043B\u044F \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0442\u0440\u0435\u0431\u0443\u044E\u0449\u0438\u0445
-      \u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0439 \u043F\u043E\u043B\u0438\u0432.
-      \u041F\u043E\u0434\u0434\u043E\u043D \u0441\u043E\u0431\u0435\u0440\u0435\u0442
-      \u0438\u0437\u043B\u0438\u0448\u043A\u0438 \u0432\u043B\u0430\u0433\u0438,
-      \u0430 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-      \u0437\u0430\u0449\u0438\u0442\u0438\u0442 \u043A\u0430\u0448\u043F\u043E \u043E\u0442
-      \u043D\u0430\u043C\u043E\u043A\u0430\u043D\u0438\u044F \u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442
-      \u0432\u043D\u0435\u0448\u043D\u0438\u0439 \u0432\u0438\u0434.\r\n\r\n\u042D\u0442\u043E\u0442
-      \u043D\u0430\u0431\u043E\u0440 \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
-      \u0422\u041E\u041B\u042C\u041A\u041E \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Concept Max."
-  - Id: Tray Simple Black
-    Title: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A %TITLE% \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      Simple, \u0447\u0435\u0440\u043D\u044B\u0439"
-    Description: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A %TITLE% \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Simple \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u044B
-      \u0434\u043B\u044F \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0442\u0440\u0435\u0431\u0443\u044E\u0449\u0438\u0445
-      \u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0439 \u043F\u043E\u043B\u0438\u0432.
-      \u041F\u043E\u0434\u0434\u043E\u043D \u0441\u043E\u0431\u0435\u0440\u0435\u0442
-      \u0438\u0437\u043B\u0438\u0448\u043A\u0438 \u0432\u043B\u0430\u0433\u0438,
-      \u0430 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-      \u0437\u0430\u0449\u0438\u0442\u0438\u0442 \u043A\u0430\u0448\u043F\u043E \u043E\u0442
-      \u043D\u0430\u043C\u043E\u043A\u0430\u043D\u0438\u044F \u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442
-      \u0432\u043D\u0435\u0448\u043D\u0438\u0439 \u0432\u0438\u0434.\r\n\r\n\u042D\u0442\u043E\u0442
-      \u043D\u0430\u0431\u043E\u0440 \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
-      \u0422\u041E\u041B\u042C\u041A\u041E \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Concept Max."
-  - Id: Tray Simple White
-    Title: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A %TITLE% \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      Simple, \u0431\u0435\u043B\u044B\u0439"
-    Description: "\u041F\u043E\u0434\u0434\u043E\u043D \u0438 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
-      \u0433\u043E\u0440\u0448\u043E\u043A %TITLE% \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Simple \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u044B
-      \u0434\u043B\u044F \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u0439, \u0442\u0440\u0435\u0431\u0443\u044E\u0449\u0438\u0445
-      \u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0439 \u043F\u043E\u043B\u0438\u0432.
-      \u041F\u043E\u0434\u0434\u043E\u043D \u0441\u043E\u0431\u0435\u0440\u0435\u0442
-      \u0438\u0437\u043B\u0438\u0448\u043A\u0438 \u0432\u043B\u0430\u0433\u0438,
-      \u0430 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-      \u0437\u0430\u0449\u0438\u0442\u0438\u0442 \u043A\u0430\u0448\u043F\u043E \u043E\u0442
-      \u043D\u0430\u043C\u043E\u043A\u0430\u043D\u0438\u044F \u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442
-      \u0432\u043D\u0435\u0448\u043D\u0438\u0439 \u0432\u0438\u0434.\r\n\r\n\u042D\u0442\u043E\u0442
-      \u043D\u0430\u0431\u043E\u0440 \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
-      \u0422\u041E\u041B\u042C\u041A\u041E \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0441\u0435\u0440\u0438\u0438 Concept Max."
 --- !u!4 &1572527215
 Transform:
   m_ObjectHideFlags: 0
@@ -4352,8 +2716,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 400}
-  m_SizeDelta: {x: -200.00006, y: 400}
+  m_AnchoredPosition: {x: 100, y: 600}
+  m_SizeDelta: {x: -400.00003, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633849069
 MonoBehaviour:
@@ -4397,16 +2761,19 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 200
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.8
-  m_Text: "\u0413\u0438\u043F\u0441, \u0431\u0435\u043B\u044B\u0439 \u0446\u0435\u043C\u0435\u043D\u0442,
-    \u043C\u0440\u0430\u043C\u043E\u0440\u043D\u0430\u044F \u043C\u0443\u043A\u0430,
-    \u043C\u0438\u043D\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0435 \u043D\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u0438,
-    \u0430\u0440\u043C\u0438\u0440\u0443\u044E\u0449\u0430\u044F \u0444\u0438\u0431\u0440\u0430"
+    m_LineSpacing: 1
+  m_Text: "- \u041F\u043E\u0434\u0434\u043E\u043D\n- \u0416\u0435\u0441\u0442\u043A\u0430\u044F
+    \u0432\u043D\u0435\u0448\u043D\u044F\u044F \u043E\u043F\u0430\u043B\u0443\u0431\u043A\u0430\n-
+    \u041C\u044F\u0433\u043A\u0438\u0439 \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u0439
+    \u0441\u0442\u0430\u043A\u0430\u043D\n- 1 \u043C\u044F\u0433\u043A\u0438\u0439
+    \u0432\u043A\u043B\u0430\u0434\u044B\u0448 (\u0431\u0435\u0437 \u0443\u0437\u043E\u0440\u0430)\n-
+    \u0417\u0430\u0433\u043B\u0443\u0448\u043A\u0430 \u0434\u043B\u044F \u0434\u0440\u0435\u043D\u0430\u0436\u043D\u043E\u0433\u043E
+    \u043E\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u044F"
 --- !u!222 &1633849071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4433,7 +2800,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1662414852
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4506,6 +2873,102 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662414851}
+  m_CullTransparentMesh: 1
+--- !u!1 &1713480387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1713480388}
+  - component: {fileID: 1713480391}
+  - component: {fileID: 1713480390}
+  - component: {fileID: 1713480389}
+  m_Layer: 5
+  m_Name: Note
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1713480388
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713480387}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 646382248}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 400}
+  m_SizeDelta: {x: -200.00002, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1713480389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713480387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1713480390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713480387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
+    m_FontSize: 70
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 7
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 0.8
+  m_Text: "[!] \u0426\u0432\u0435\u0442 \u043E\u043F\u0430\u043B\u0443\u0431\u043A\u0438
+    \u043C\u043E\u0436\u0435\u0442 \u043E\u0442\u043B\u0438\u0447\u0430\u0442\u044C\u0441\u044F"
+--- !u!222 &1713480391
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713480387}
   m_CullTransparentMesh: 1
 --- !u!1 &1852042373
 GameObject:
@@ -4634,10 +3097,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 529380533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 625.4166, y: -100}
+  m_SizeDelta: {x: 1050.8333, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900687085
 MonoBehaviour:
@@ -4672,7 +3135,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PREMIUM PLANTER
+  m_Text: CONCEPT MAX SERIES
 --- !u!222 &1900687086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4691,7 +3154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1913312261}
   m_Layer: 5
-  m_Name: Page4
+  m_Name: Page5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4803,8 +3266,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0433\u043E\u0440\u0448\u043E\u043A
-    \u0438 \u043F\u043E\u0434\u0434\u043E\u043D"
+  m_Text: "\u041D\u043E\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"
 --- !u!222 &1924841291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4812,6 +3274,193 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924841287}
+  m_CullTransparentMesh: 1
+--- !u!1 &1932122661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1932122662}
+  - component: {fileID: 1932122665}
+  - component: {fileID: 1932122664}
+  - component: {fileID: 1932122663}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1932122662
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932122661}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2102471092}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -200}
+  m_SizeDelta: {x: 800, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1932122663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932122661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1932122664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932122661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
+    m_FontSize: 70
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 200
+    m_Alignment: 1
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 0.8
+  m_Text: "\u0411\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u044B\u0439"
+--- !u!222 &1932122665
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932122661}
+  m_CullTransparentMesh: 1
+--- !u!1 &1971765064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1971765065}
+  - component: {fileID: 1971765068}
+  - component: {fileID: 1971765067}
+  - component: {fileID: 1971765066}
+  m_Layer: 5
+  m_Name: Porperty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1971765065
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971765064}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 23990888}
+  m_Father: {fileID: 199570716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -600, y: 100}
+  m_SizeDelta: {x: 128, y: 128}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1971765066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971765064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1971765067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971765064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 47cf1112cb4d2934c89fdfce29ddc980, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1971765068
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971765064}
   m_CullTransparentMesh: 1
 --- !u!1 &2038246301
 GameObject:
@@ -4831,7 +3480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2038246302
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4905,6 +3554,102 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038246301}
   m_CullTransparentMesh: 1
+--- !u!1 &2053766427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2053766428}
+  - component: {fileID: 2053766431}
+  - component: {fileID: 2053766430}
+  - component: {fileID: 2053766429}
+  m_Layer: 5
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2053766428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053766427}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 199570716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1200}
+  m_SizeDelta: {x: -200.00002, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2053766429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053766427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &2053766430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053766427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
+    m_FontSize: 100
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 200
+    m_Alignment: 7
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 0.8
+  m_Text: "\u041E\u0434\u0438\u043D <b>\u043C\u043E\u043B\u0434</b> - \u043C\u043D\u043E\u0433\u043E
+    \u0434\u0438\u0437\u0430\u0439\u043D\u043E\u0432"
+--- !u!222 &2053766431
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053766427}
+  m_CullTransparentMesh: 1
 --- !u!1 &2056368161
 GameObject:
   m_ObjectHideFlags: 0
@@ -4932,14 +3677,14 @@ RectTransform:
   m_GameObject: {fileID: 2056368161}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2133494953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -150}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2400, y: 3200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2056368163
@@ -4962,7 +3707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b46ebfedde964e408a492fa2295d16d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f4acd866fd8ff44080abefdaaa5eaec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4979,6 +3724,98 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056368161}
+  m_CullTransparentMesh: 1
+--- !u!1 &2102471091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2102471092}
+  - component: {fileID: 2102471095}
+  - component: {fileID: 2102471094}
+  - component: {fileID: 2102471093}
+  m_Layer: 5
+  m_Name: Porperty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2102471092
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102471091}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1932122662}
+  m_Father: {fileID: 199570716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 600, y: 100}
+  m_SizeDelta: {x: 128, y: 128}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2102471093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102471091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 0, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &2102471094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102471091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 26e31cc3c7be6bd44810c21bae2807f6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2102471095
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102471091}
   m_CullTransparentMesh: 1
 --- !u!1 &2109395324
 GameObject:
@@ -4998,7 +3835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2109395325
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5169,6 +4006,7 @@ RectTransform:
   - {fileID: 2056368162}
   - {fileID: 1030709311}
   - {fileID: 683704730}
+  - {fileID: 199570716}
   - {fileID: 646382248}
   - {fileID: 1446309857}
   - {fileID: 1913312261}

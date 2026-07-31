@@ -101,6 +101,17 @@ public class Capture : MonoBehaviour
             CreateScreenshot(item.Id, 4);
 
             Screenshot.material.SetFloat("_Sensitivity", 0.03f);
+
+            // 5
+
+            if (item.Screenshots.Length == 4) continue;
+
+            Pages[3].SetActive(false);
+            Pages[4].SetActive(true);
+            SetScreenshot(item, 4);
+
+            yield return new WaitForEndOfFrame();
+            CreateScreenshot(item.Id, 5);
         }
     }
 
