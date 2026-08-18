@@ -3,11 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using UnityEditor.AssetImporters;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Capture : MonoBehaviour
+public class CapturePots : MonoBehaviour
 {
     public GameObject[] Pages;
     public Image Screenshot;
@@ -150,48 +149,4 @@ public class Capture : MonoBehaviour
         File.WriteAllBytes(path, jpegBytes);
         Debug.Log($"Screenshot saved: {path}");
     }
-}
-
-[Serializable]
-public class Item
-{
-    public string Id;
-    public string Title;
-    public string Collection;
-    public string Description;
-    public int DescriptionTextSize = 120;
-    public string MaterialTitle = "Композитный камень";
-    public string MaterialDescription = "Гипс, белый цемент, мраморная мука, минеральные наполнители, армирующая фибра";
-    public int MaterialDescriptionTextSize = 80;
-    public string TrayTitle = "Технический горшок и поддон";
-    public string TrayDescription = "В комплекте. Кашпо не намокнет, а растение не засохнет.";
-    public string MetaTemplateId;
-    public ItemProperty[] Properties;
-    public ItemScreenshot[] Screenshots;
-}
-
-[Serializable]
-public class ItemScreenshot
-{
-    public Sprite Sprite;
-    public Vector2 Offset = Vector2.zero;
-    public float Scale = 1;
-    public float Rotation;
-}
-
-[Serializable]
-public class ItemProperty
-{
-    [TextArea(1, 2)]
-    public string Text;
-    public Sprite Icon;
-}
-
-[Serializable]
-public class ItemMeta
-{
-    public string Id;
-    public string Title;
-    [TextArea(1, 20)]
-    public string Description;
 }
