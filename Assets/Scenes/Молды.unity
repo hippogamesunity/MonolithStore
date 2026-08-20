@@ -3069,11 +3069,18 @@ MonoBehaviour:
   Title: {fileID: 1290990163}
   Description: {fileID: 865228438}
   ItemFilter: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept
+<<<<<<< HEAD
     Bold 140/80"
   Items:
   - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept 120/70"
     Title: Concept 120/70
     Collection: CONCEPT SERIES
+=======
+    Max"
+  Items:
+  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept Max"
+    Title: Concept Max
+    Collection: CONCEPT MAX SERIES
     Description: "\u0420\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439 \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
       \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E"
     DescriptionTextSize: 100
@@ -3083,12 +3090,56 @@ MonoBehaviour:
     TrayTitle: 
     TrayDescription: 
     MetaTemplateId: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
-      Concept"
+      Concept Max"
+    Properties:
+    - Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n120
+        \u0445 87 \u043C\u043C"
+      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
+    Screenshots:
+    - Sprite: {fileID: 21300000, guid: 8f4acd866fd8ff44080abefdaaa5eaec, type: 3}
+      Offset: {x: 0, y: -10}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 17e8726dc996f6e4c9020df71b21d46f, type: 3}
+      Offset: {x: 0, y: -100}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 244d58f3a65c21b478b55fcce5f6a5ef, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: -0.5
+    - Sprite: {fileID: 21300000, guid: 0853a14473183a54cb686fa1bc74f92e, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 35158b884ed612746872d2b3fa912721, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: f29013dbdd9f28345b4c9b82475fdf2f, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept Max"
+    Title: Concept Max
+    Collection: CONCEPT MAX SERIES
+>>>>>>> a56c522b785577e588c3ba37a05954c7c8621225
+    Description: "\u0420\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439 \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
+      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E"
+    DescriptionTextSize: 100
+    MaterialTitle: 
+    MaterialDescription: 
+    MaterialDescriptionTextSize: 80
+    TrayTitle: 
+    TrayDescription: 
+    MetaTemplateId: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
+      Concept Max"
     Properties:
     - Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n120
         \u0445 70 \u043C\u043C"
       Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
     Screenshots:
+<<<<<<< HEAD
     - Sprite: {fileID: 21300000, guid: 045b77bc4df2bde49a7a558f7b06fdf0, type: 3}
       Offset: {x: 0, y: 250}
       Scale: 1
@@ -3098,6 +3149,13 @@ MonoBehaviour:
       Scale: 1
       Rotation: 0
     - Sprite: {fileID: 21300000, guid: 244d58f3a65c21b478b55fcce5f6a5ef, type: 3}
+=======
+    - Sprite: {fileID: 21300000, guid: 8f4acd866fd8ff44080abefdaaa5eaec, type: 3}
+      Offset: {x: 0, y: -10}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 6693c5d2c8467a5469c6eaa2691864e7, type: 3}
+>>>>>>> a56c522b785577e588c3ba37a05954c7c8621225
       Offset: {x: 0, y: -100}
       Scale: 0.9
       Rotation: 0
