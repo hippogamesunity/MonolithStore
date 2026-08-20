@@ -1402,7 +1402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &683704730
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1462,8 +1462,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 700}
-  m_SizeDelta: {x: -200, y: 400}
+  m_AnchoredPosition: {x: 0, y: 800}
+  m_SizeDelta: {x: -200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &865228437
 MonoBehaviour:
@@ -2108,7 +2108,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 1200}
-  m_SizeDelta: {x: -400, y: 500}
+  m_SizeDelta: {x: -200, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1290990162
 MonoBehaviour:
@@ -2147,7 +2147,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 063deadf65ff71a40b7fd9b32dcb113f, type: 3}
-    m_FontSize: 200
+    m_FontSize: 160
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -2158,7 +2158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: Concept Max
+  m_Text: Concept Max 120/87
 --- !u!222 &1290990164
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2734,8 +2734,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n120
-    \u0445 87 \u043C\u043C\n"
+  m_Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n140
+    \u0445 80 \u043C\u043C\n"
 --- !u!222 &1456125383
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3068,52 +3068,11 @@ MonoBehaviour:
   Screenshot: {fileID: 2056368163}
   Title: {fileID: 1290990163}
   Description: {fileID: 865228438}
-  ItemFilter: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept"
+  ItemFilter: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept
+    Bold 140/80"
   Items:
-  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept Max"
-    Title: Concept Max
-    Collection: CONCEPT MAX SERIES
-    Description: "\u0420\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439 \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
-      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E"
-    DescriptionTextSize: 100
-    MaterialTitle: 
-    MaterialDescription: 
-    MaterialDescriptionTextSize: 80
-    TrayTitle: 
-    TrayDescription: 
-    MetaTemplateId: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
-      Concept Max"
-    Properties:
-    - Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n120
-        \u0445 87 \u043C\u043C"
-      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
-    Screenshots:
-    - Sprite: {fileID: 21300000, guid: 8f4acd866fd8ff44080abefdaaa5eaec, type: 3}
-      Offset: {x: 0, y: -10}
-      Scale: 0.9
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 17e8726dc996f6e4c9020df71b21d46f, type: 3}
-      Offset: {x: 0, y: -100}
-      Scale: 0.9
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 244d58f3a65c21b478b55fcce5f6a5ef, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: -0.5
-    - Sprite: {fileID: 21300000, guid: 0853a14473183a54cb686fa1bc74f92e, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 35158b884ed612746872d2b3fa912721, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-    - Sprite: {fileID: 21300000, guid: f29013dbdd9f28345b4c9b82475fdf2f, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: 0
-  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept"
-    Title: Concept
+  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept 120/70"
+    Title: Concept 120/70
     Collection: CONCEPT SERIES
     Description: "\u0420\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439 \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
       \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E"
@@ -3131,22 +3090,108 @@ MonoBehaviour:
       Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
     Screenshots:
     - Sprite: {fileID: 21300000, guid: 045b77bc4df2bde49a7a558f7b06fdf0, type: 3}
-      Offset: {x: 0, y: -10}
-      Scale: 0.9
+      Offset: {x: 0, y: 250}
+      Scale: 1
       Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 655ff8fc998a1af45a15f5e6181920d0, type: 3}
+    - Sprite: {fileID: 21300000, guid: cdf61df4cd39f4f439594fb01dcdf7f2, type: 3}
+      Offset: {x: 0, y: 250}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 244d58f3a65c21b478b55fcce5f6a5ef, type: 3}
       Offset: {x: 0, y: -100}
       Scale: 0.9
       Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 244d58f3a65c21b478b55fcce5f6a5ef, type: 3}
-      Offset: {x: 0, y: 0}
-      Scale: 1
-      Rotation: -0.5
     - Sprite: {fileID: 21300000, guid: 0853a14473183a54cb686fa1bc74f92e, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 35158b884ed612746872d2b3fa912721, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 25d8dbef4646b3c4f803c15029fff768, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 0.9
+      Rotation: 0
+  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept Max
+      120/87"
+    Title: Concept Max 120/87
+    Collection: CONCEPT MAX SERIES
+    Description: "\u0420\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439 \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
+      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E"
+    DescriptionTextSize: 100
+    MaterialTitle: 
+    MaterialDescription: 
+    MaterialDescriptionTextSize: 80
+    TrayTitle: 
+    TrayDescription: 
+    MetaTemplateId: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
+      Concept Max"
+    Properties:
+    - Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n120
+        \u0445 87 \u043C\u043C"
+      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
+    Screenshots:
+    - Sprite: {fileID: 21300000, guid: 8f4acd866fd8ff44080abefdaaa5eaec, type: 3}
+      Offset: {x: -50, y: 250}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 6693c5d2c8467a5469c6eaa2691864e7, type: 3}
+      Offset: {x: 0, y: 200}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 244d58f3a65c21b478b55fcce5f6a5ef, type: 3}
+      Offset: {x: 0, y: -100}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 0853a14473183a54cb686fa1bc74f92e, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 35158b884ed612746872d2b3fa912721, type: 3}
       Offset: {x: 0, y: 0}
       Scale: 1
       Rotation: 0
-    - Sprite: {fileID: 21300000, guid: 35158b884ed612746872d2b3fa912721, type: 3}
+    - Sprite: {fileID: 21300000, guid: f29013dbdd9f28345b4c9b82475fdf2f, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 0.9
+      Rotation: 0
+  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept Bold
+      140/80"
+    Title: Concept 140/80
+    Collection: CONCEPT SERIES
+    Description: "\u0420\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439 \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
+      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E"
+    DescriptionTextSize: 100
+    MaterialTitle: 
+    MaterialDescription: 
+    MaterialDescriptionTextSize: 80
+    TrayTitle: 
+    TrayDescription: 
+    MetaTemplateId: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434
+      Concept Bold"
+    Properties:
+    - Text: "\u0420\u0430\u0437\u043C\u0435\u0440 \u043A\u0430\u0448\u043F\u043E\n120
+        \u0445 70 \u043C\u043C"
+      Icon: {fileID: 21300000, guid: 028df673f68fc4742bbe06e7875735e3, type: 3}
+    Screenshots:
+    - Sprite: {fileID: 21300000, guid: 5677c27d1c6d34048840239a95130e05, type: 3}
+      Offset: {x: 0, y: -10}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: b7d683c42ae87684db88d3e1623a1704, type: 3}
+      Offset: {x: 0, y: -100}
+      Scale: 0.9
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: 1613ab3b81e016749815470f53eea4cf, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: -0.5
+    - Sprite: {fileID: 21300000, guid: 832ab7d48c693c749b7ea36542d53d73, type: 3}
+      Offset: {x: 0, y: 0}
+      Scale: 1
+      Rotation: 0
+    - Sprite: {fileID: 21300000, guid: ff5ca2a8884f06043a71c404509c8351, type: 3}
       Offset: {x: 0, y: 0}
       Scale: 1
       Rotation: 0
@@ -3155,29 +3200,36 @@ MonoBehaviour:
       Scale: 1
       Rotation: 0
   ItemMetas:
-  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept Max"
+  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept"
     Title: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 %TITLE%
       \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E \u0438\u043B\u0438 \u0433\u043E\u0440\u0448\u043A\u0430
       \u0438\u0437 \u0433\u0438\u043F\u0441\u0430"
     Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0438\u0439 \u0440\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439
       \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 %TITLE% \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D
       \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0438\u0437 \u0433\u0438\u043F\u0441\u0430. \u0421\u043C\u0435\u043D\u043D\u044B\u0439
+      \u0438\u0437 \u0433\u0438\u043F\u0441\u0430 \u0438\u043B\u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u043E\u0433\u043E
+      \u0431\u0435\u0442\u043E\u043D. \u0421\u043C\u0435\u043D\u043D\u044B\u0439
       \u0432\u043A\u043B\u0430\u0434\u044B\u0448 \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442
       \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C \u043A\u0430\u0448\u043F\u043E
       \u0441 \u0440\u0430\u0437\u043D\u044B\u043C\u0438 \u0434\u0438\u0437\u0430\u0439\u043D\u0430\u043C\u0438.
       \u0414\u0438\u0430\u043C\u0435\u0442\u0440 \u043A\u0430\u0448\u043F\u043E -
-      120 \u043C\u043C, \u0432\u044B\u0441\u043E\u0442\u0430 - 87 \u043C\u043C. \u0414\u0438\u0430\u043C\u0435\u0442\u0440
+      120 \u043C\u043C, \u0432\u044B\u0441\u043E\u0442\u0430 - 70 \u043C\u043C. \u0414\u0438\u0430\u043C\u0435\u0442\u0440
       \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0435\u0433\u043E \u0441\u0442\u0430\u043A\u0430\u043D\u0430
       - 102 \u043C\u043C \u0441\u0432\u0435\u0440\u0445\u0443 \u0438 100 \u043C\u043C
-      \u0441\u043D\u0438\u0437\u0443, \u0432\u044B\u0441\u043E\u0442\u0430 79 \u043C\u043C.
+      \u0441\u043D\u0438\u0437\u0443, \u0432\u044B\u0441\u043E\u0442\u0430 64 \u043C\u043C.
       \u0414\u043B\u044F \u043A\u0430\u0448\u043F\u043E \u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0442
       \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0433\u043E\u0440\u0448\u043A\u0438
       \u0434\u0438\u0430\u043C\u0435\u0442\u0440\u043E\u043C 10 \u0441\u043C \u0438
-      \u0432\u044B\u0441\u043E\u0442\u043E\u0439 8 \u0441\u043C (0.5 \u043B\u0438\u0442\u0440\u0430,
-      \u0430\u0440\u0442\u0438\u043A\u0443\u043B 1209521249).\r\n\r\n\u0427\u0442\u043E
+      \u0432\u044B\u0441\u043E\u0442\u043E\u0439 6 \u0441\u043C (0.39 \u043B\u0438\u0442\u0440\u0430,
+      \u0430\u0440\u0442\u0438\u043A\u0443\u043B 4883010856).\r\n\r\n\u0427\u0442\u043E
       \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C \u043F\u0435\u0440\u0435\u0434
-      \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\r\n- \u0433\u043E\u0442\u043E\u0432\u044B\u0435
+      \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n- \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F
+      \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0443\u043C\u043D\u044B\u0439
+      \u0433\u0438\u043F\u0441 \u0421\u043A\u0443\u043B\u044C\u043F\u0442\u043E\u0440
+      \u0438\u043B\u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u044B\u0439
+      \u0431\u0435\u0442\u043E\u043D\n- \u043D\u0435 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F
+      \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+      \u0433\u0438\u043F\u0441 \u0438 \u0431\u0435\u0442\u043E\u043D\r\n- \u0433\u043E\u0442\u043E\u0432\u044B\u0435
       \u0438\u0437\u0434\u0435\u043B\u0438\u044F \u0442\u0440\u0435\u0431\u0443\u044E\u0442
       \u0448\u043B\u0438\u0444\u043E\u0432\u043A\u0438, \u043E\u0441\u043E\u0431\u0435\u043D\u043D\u043E
       \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0448\u0432\u0430\r\n- \u0441\u0431\u043E\u0440\u043D\u044B\u0439
@@ -3199,35 +3251,87 @@ MonoBehaviour:
       \u043A\u0443\u043F\u0438\u0442\u044C \u043F\u043B\u0430\u0441\u0442\u0438\u043A\u043E\u0432\u044B\u0435
       \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u0438 \u0434\u043B\u044F \u0433\u043E\u0442\u043E\u0432\u044B\u0445
       \u043A\u0430\u0448\u043F\u043E"
-  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept"
+  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept Max"
     Title: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 %TITLE%
       \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E \u0438\u043B\u0438 \u0433\u043E\u0440\u0448\u043A\u0430
       \u0438\u0437 \u0433\u0438\u043F\u0441\u0430"
     Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0438\u0439 \u0440\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439
       \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 %TITLE% \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D
       \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u043A\u0430\u0448\u043F\u043E
-      \u0438\u0437 \u0433\u0438\u043F\u0441\u0430. \u0421\u043C\u0435\u043D\u043D\u044B\u0439
+      \u0438\u0437 \u0433\u0438\u043F\u0441\u0430 \u0438\u043B\u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u043E\u0433\u043E
+      \u0431\u0435\u0442\u043E\u043D. \u0421\u043C\u0435\u043D\u043D\u044B\u0439
       \u0432\u043A\u043B\u0430\u0434\u044B\u0448 \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442
       \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C \u043A\u0430\u0448\u043F\u043E
       \u0441 \u0440\u0430\u0437\u043D\u044B\u043C\u0438 \u0434\u0438\u0437\u0430\u0439\u043D\u0430\u043C\u0438.
       \u0414\u0438\u0430\u043C\u0435\u0442\u0440 \u043A\u0430\u0448\u043F\u043E -
-      120 \u043C\u043C, \u0432\u044B\u0441\u043E\u0442\u0430 - 70 \u043C\u043C. \u0414\u0438\u0430\u043C\u0435\u0442\u0440
+      120 \u043C\u043C, \u0432\u044B\u0441\u043E\u0442\u0430 - 87 \u043C\u043C. \u0414\u0438\u0430\u043C\u0435\u0442\u0440
       \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0435\u0433\u043E \u0441\u0442\u0430\u043A\u0430\u043D\u0430
       - 102 \u043C\u043C \u0441\u0432\u0435\u0440\u0445\u0443 \u0438 100 \u043C\u043C
-      \u0441\u043D\u0438\u0437\u0443, \u0432\u044B\u0441\u043E\u0442\u0430 64 \u043C\u043C.
+      \u0441\u043D\u0438\u0437\u0443, \u0432\u044B\u0441\u043E\u0442\u0430 79 \u043C\u043C.
       \u0414\u043B\u044F \u043A\u0430\u0448\u043F\u043E \u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0442
       \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0433\u043E\u0440\u0448\u043A\u0438
       \u0434\u0438\u0430\u043C\u0435\u0442\u0440\u043E\u043C 10 \u0441\u043C \u0438
-      \u0432\u044B\u0441\u043E\u0442\u043E\u0439 6 \u0441\u043C (0.39 \u043B\u0438\u0442\u0440\u0430,
-      \u0430\u0440\u0442\u0438\u043A\u0443\u043B 4883010856).\r\n\r\n\u0427\u0442\u043E
+      \u0432\u044B\u0441\u043E\u0442\u043E\u0439 8 \u0441\u043C (0.5 \u043B\u0438\u0442\u0440\u0430,
+      \u0430\u0440\u0442\u0438\u043A\u0443\u043B 1209521249).\r\n\r\n\u0427\u0442\u043E
       \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C \u043F\u0435\u0440\u0435\u0434
-      \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\r\n- \u0433\u043E\u0442\u043E\u0432\u044B\u0435
+      \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n- \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F
+      \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0443\u043C\u043D\u044B\u0439
+      \u0433\u0438\u043F\u0441 \u0421\u043A\u0443\u043B\u044C\u043F\u0442\u043E\u0440
+      \u0438\u043B\u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u044B\u0439
+      \u0431\u0435\u0442\u043E\u043D\n- \u043D\u0435 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F
+      \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+      \u0433\u0438\u043F\u0441 \u0438 \u0431\u0435\u0442\u043E\u043D\r\n- \u0433\u043E\u0442\u043E\u0432\u044B\u0435
       \u0438\u0437\u0434\u0435\u043B\u0438\u044F \u0442\u0440\u0435\u0431\u0443\u044E\u0442
       \u0448\u043B\u0438\u0444\u043E\u0432\u043A\u0438, \u043E\u0441\u043E\u0431\u0435\u043D\u043D\u043E
       \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0448\u0432\u0430\r\n- \u0441\u0431\u043E\u0440\u043D\u044B\u0439
       \u043C\u043E\u043B\u0434 \u043D\u0435\u0433\u0435\u0440\u043C\u0435\u0442\u0438\u0447\u043D\u044B\u0439,
       \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u044B \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0435
       \u043F\u043E\u0434\u0442\u0435\u043A\u0430\u043D\u0438\u044F \u0433\u0438\u043F\u0441\u0430\r\n-
+      \u043C\u043E\u043B\u0434 \u043C\u043E\u0436\u043D\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
+      \u0431\u0435\u0437 \u0432\u043A\u043B\u0430\u0434\u044B\u0448\u0430, \u0442\u043E\u0433\u0434\u0430
+      \u0431\u0443\u0434\u0443\u0442 \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C\u0441\u044F
+      \u0440\u043E\u0432\u043D\u044B\u0435 \u0446\u0438\u043B\u0438\u043D\u0434\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+      \u043A\u0430\u0448\u043F\u043E\r\n- \u0446\u0432\u0435\u0442 \u043C\u043E\u043B\u0434\u0430
+      \u043C\u043E\u0436\u0435\u0442 \u043E\u0442\u043B\u0438\u0447\u0430\u0442\u044C\u0441\u044F
+      \u043E\u0442 \u0432\u0430\u0440\u0438\u0430\u043D\u0442\u0430 \u043D\u0430
+      \u0444\u043E\u0442\u043E\r\n- \u0432 \u043D\u0430\u0448\u0435\u043C \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0435
+      \u043C\u043E\u0436\u043D\u043E \u043A\u0443\u043F\u0438\u0442\u044C \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435
+      \u0432\u043A\u043B\u0430\u0434\u044B\u0448\u0438 \u0441 \u0440\u0430\u0437\u043D\u044B\u043C\u0438
+      \u0434\u0438\u0437\u0430\u0439\u043D\u0430\u043C\u0438\r\n- \u0432 \u043D\u0430\u0448\u0435\u043C
+      \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0435 \u043C\u043E\u0436\u043D\u043E
+      \u043A\u0443\u043F\u0438\u0442\u044C \u043F\u043B\u0430\u0441\u0442\u0438\u043A\u043E\u0432\u044B\u0435
+      \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u0438 \u0434\u043B\u044F \u0433\u043E\u0442\u043E\u0432\u044B\u0445
+      \u043A\u0430\u0448\u043F\u043E"
+  - Id: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 Concept Bold"
+    Title: "\u041C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 %TITLE%
+      \u0434\u043B\u044F \u043A\u0430\u0448\u043F\u043E \u0438\u043B\u0438 \u0433\u043E\u0440\u0448\u043A\u0430
+      \u0438\u0437 \u0433\u0438\u043F\u0441\u0430"
+    Description: "\u0410\u0432\u0442\u043E\u0440\u0441\u043A\u0438\u0439 \u0440\u0430\u0437\u0431\u043E\u0440\u043D\u044B\u0439
+      \u043C\u0443\u043B\u044C\u0442\u0438\u043C\u043E\u043B\u0434 %TITLE% \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D
+      \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u043A\u0430\u0448\u043F\u043E
+      \u0438\u0437 \u0433\u0438\u043F\u0441\u0430 \u0438\u043B\u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u043E\u0433\u043E
+      \u0431\u0435\u0442\u043E\u043D\u0430. \u0421\u043C\u0435\u043D\u043D\u044B\u0439
+      \u0432\u043A\u043B\u0430\u0434\u044B\u0448 \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442
+      \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C \u043A\u0430\u0448\u043F\u043E
+      \u0441 \u0440\u0430\u0437\u043D\u044B\u043C\u0438 \u0434\u0438\u0437\u0430\u0439\u043D\u0430\u043C\u0438.
+      \u0414\u0438\u0430\u043C\u0435\u0442\u0440 \u043A\u0430\u0448\u043F\u043E -
+      140 \u043C\u043C, \u0432\u044B\u0441\u043E\u0442\u0430 - 80 \u043C\u043C. \u0414\u0438\u0430\u043C\u0435\u0442\u0440
+      \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0435\u0433\u043E \u0441\u0442\u0430\u043A\u0430\u043D\u0430
+      - 120 \u043C\u043C, \u0432\u044B\u0441\u043E\u0442\u0430 72 \u043C\u043C.\r\n\r\n\u0427\u0442\u043E
+      \u0432\u0430\u0436\u043D\u043E \u0437\u043D\u0430\u0442\u044C \u043F\u0435\u0440\u0435\u0434
+      \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439:\n- \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F
+      \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0443\u043C\u043D\u044B\u0439
+      \u0433\u0438\u043F\u0441 \u0421\u043A\u0443\u043B\u044C\u043F\u0442\u043E\u0440
+      \u0438\u043B\u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u044B\u0439
+      \u0431\u0435\u0442\u043E\u043D\n- \u043D\u0435 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F
+      \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+      \u0433\u0438\u043F\u0441 \u0438 \u0431\u0435\u0442\u043E\u043D\r\n- \u0433\u043E\u0442\u043E\u0432\u044B\u0435
+      \u0438\u0437\u0434\u0435\u043B\u0438\u044F \u0442\u0440\u0435\u0431\u0443\u044E\u0442
+      \u0448\u043B\u0438\u0444\u043E\u0432\u043A\u0438, \u043E\u0441\u043E\u0431\u0435\u043D\u043D\u043E
+      \u0432 \u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0448\u0432\u0430\r\n- \u0441\u0431\u043E\u0440\u043D\u044B\u0439
+      \u043C\u043E\u043B\u0434 \u043D\u0435\u0433\u0435\u0440\u043C\u0435\u0442\u0438\u0447\u043D\u044B\u0439,
+      \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u044B \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u0435
+      \u043F\u043E\u0434\u0442\u0435\u043A\u0430\u043D\u0438\u044F \u0441\u043C\u0435\u0441\u0438\r\n-
       \u043C\u043E\u043B\u0434 \u043C\u043E\u0436\u043D\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
       \u0431\u0435\u0437 \u0432\u043A\u043B\u0430\u0434\u044B\u0448\u0430, \u0442\u043E\u0433\u0434\u0430
       \u0431\u0443\u0434\u0443\u0442 \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C\u0441\u044F
@@ -4257,14 +4361,14 @@ RectTransform:
   m_GameObject: {fileID: 2056368161}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2133494953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: 250}
   m_SizeDelta: {x: 2400, y: 3200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2056368163
