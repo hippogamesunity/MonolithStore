@@ -30,7 +30,7 @@ public class CaptureGeneric : MonoBehaviour
             }
 
             Title.text = item.Title;
-            Description.text = item.Description;
+            Description.text = item.Description.Replace(@"\n", Environment.NewLine);
             Description.fontSize = item.DescriptionTextSize;
 
             for (var i = 0; i < Pages.Length; i++)
@@ -91,11 +91,11 @@ public class Item
     public string Collection;
     public string Description;
     public int DescriptionTextSize = 120;
-    public string MaterialTitle = "Композитный камень";
-    public string MaterialDescription = "Гипс, белый цемент, мраморная мука, минеральные наполнители, армирующая фибра";
+    public string MaterialTitle;
+    public string MaterialDescription;
     public int MaterialDescriptionTextSize = 80;
-    public string TrayTitle = "Технический горшок и поддон";
-    public string TrayDescription = "В комплекте. Кашпо не намокнет, а растение не засохнет.";
+    public string TrayTitle;
+    public string TrayDescription;
     public string MetaTemplateId;
     public ItemProperty[] Properties;
     public ItemScreenshot[] Screenshots;
